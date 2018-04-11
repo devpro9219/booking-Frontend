@@ -1,0 +1,547 @@
+.offer-final-step {
+    float: left;
+    margin-top: -60px;
+    width: 100%;
+    &__left-column {
+        float:left;
+        padding-right: 15px;
+        width: 100%;
+        @include media(small-max) {
+            width: 100%;
+        }
+    }
+
+    &__right-column {
+        width: 100%;
+        float:left;
+
+        @include media(small-max) {
+            width: 100%;
+        }
+    }
+
+    &__title-wrapper {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 20px;
+        color: $black;
+        font-weight:$fw-bold;
+
+        @include media(small-max) {
+            text-align: center;
+            margin-top: 32px;
+        }
+
+        &.title-dash {
+
+            @include media(small-max) {
+                position: relative;
+                padding-top: 32px;
+                margin-bottom: 32px;
+                font-weight: 100;
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    height: 1px;
+                    width: 35px;
+                    background-color: $color-brightTurquoise;
+                }
+            }
+
+        }
+    }
+    &__title-dash {
+        font-size: 25px;
+        color: $black;
+        font-weight:$fw-light;
+
+        @include media(small-max) {
+            text-align: center;
+            margin-top: 32px;
+        }
+
+        &.title-dash {
+
+            @include media(small-max) {
+                position: relative;
+                padding-top: 32px;
+                margin-bottom: 32px;
+                font-weight: 100;
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    height: 1px;
+                    width: 35px;
+                    background-color: $color-brightTurquoise;
+                }
+            }
+
+        }
+    }
+    &__second-title{
+        float: right;
+        margin-top: -2.4%;
+        font-size: 25px;
+        font-weight: $fw-light;
+      margin-right: 35px;
+    }
+
+    &__data-set {
+        float: left;
+        padding-right: 5%;
+        margin: 20px 0;
+    }
+
+    &__data-set-title-wrapper {
+    }
+
+    &__data-set-title {
+        font-size: 14px;
+        color: $black;
+        display: inline-block;
+        margin-right: 5px;
+        font-weight: $fw-light;
+
+        @include media(small-max) {
+            font-size: $fs-small;
+        }
+    }
+
+    &__edit-data {
+        width: 19px;
+        height: 19px;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        background: url('../images/edit.svg') center no-repeat;
+    }
+
+    &__data-set-group {
+        font-size: 16px;
+    }
+
+    &__data-set-label {
+        color: $black;
+        display: inline-block;
+        margin-right: 5px;
+        font-weight: $fw-medium;
+
+        @include media(small-max) {
+            font-size: $fs-small;
+        }
+    }
+
+    &__data-set-value {
+        color: $black;
+        display: inline-block;
+        font-weight: $fw-light;
+
+        @include media(small-max) {
+            font-size: $fs-small;
+        }
+    }
+
+    &__insurance-options {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    &__insurance-options input{
+        margin-right: 1%;
+        font-size: 17px;
+    }
+    &__checkbox-right-text{
+        margin-left: 0.5%;
+        font-weight: $fw-medium;
+        color: #1a2020;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+
+    &__radio-group {
+        border: 1px solid #979797;
+        margin-right: 2%;
+        float: left;
+        width: 33%;
+        height: 420px;
+    }
+
+    &__radio {
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 5%;
+         width: 100%;
+    }
+
+    &__radio-circle {
+        width: 19px;
+        height: 19px;
+        display: block;
+        border-radius: 50px;
+        border: 1px solid $color-Turquoise;
+        cursor: pointer;
+        vertical-align: middle;
+        position: relative;
+        margin-left: 0px;
+        margin: auto;
+        text-align: center;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 13px;
+            height: 13px;
+            border-radius: 50px;
+            background: $color-Turquoise;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            opacity: 0;
+            transition: opacity .15s linear;
+        }
+
+        &.checked {
+            &:before {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__checkbox-text{
+        float: left;
+        width: 312px;
+        margin-top: 1%;
+        margin-left: 33px;
+        margin-right: 20px;
+      font-size: 15px;
+      font-weight: lighter;
+      margin-bottom: 20px;
+    }
+
+    &__radio-label {
+        display: block;
+        vertical-align: middle;
+        color: $black;
+        font-size: 25px;
+      text-align: center;
+    }
+
+    &__radio-info-icon {
+        width: 19px;
+        height: 19px;
+        display: inline-block;
+        vertical-align: middle;
+        background: url('../images/info.svg') center no-repeat;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    &__plans {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    &__plan {
+        display: inline-block;
+        padding-right: 20px;
+        float: left;
+        width: 200px;
+        margin-left: 6%;
+
+
+        @include media(small-max) {
+            width: 50%;
+        }
+
+        @media screen and (max-width: 360px) {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__plan-s {
+      display: inline-block;
+      padding-right: 20px;
+      float: left;
+      width: 150px;
+      margin-left: 6%;
+
+
+      @include media(small-max) {
+        width: 50%;
+      }
+
+      @media screen and (max-width: 360px) {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+    &__plan-title {
+        color: $black;
+        display: inline-block;
+        margin-bottom: 5px;
+        font-weight: $fw-light;
+        font-size: 14px;
+
+        @include media(small-max) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__plan-button {
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: $fw-medium;
+        display: block;
+        color: $black;
+
+        @include media(small-max) {
+            font-size: $fs-small;
+        }
+    }
+    &__plan-border{
+        height: 3px;
+        border-bottom: 1px solid #0cc3c2;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 75px;
+        margin-bottom: 15px;
+    }
+    &__text-below-border{
+        padding-left: 6%;
+        font-size: 16px;
+        color: #1A2020;
+    }
+    &__text-below-border:nth-of-type(2){
+        margin-top: 0%!important;
+    }
+    &__plan-info{
+        padding-left: 6%;
+        margin-top: 8%;
+        font-size: 15px;
+      color: #1A2020;
+    }
+    &__plan-info-details{
+        padding-left: 6.5%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        font-size: 15px;
+        color: #1a2020;
+    }
+
+    &__calculation {
+
+    }
+
+    &__calculation-title {
+        color: $black;
+        font-size: 25px;
+        margin-bottom: 3px;
+        font-weight: $fw-light;
+
+        @include media(small-max) {
+            text-align: center;
+            font-size: $fs-regular;
+        }
+    }
+
+    &__range-value {
+        color: $black;
+        margin-bottom: 37px;
+        display: block;
+        font-size: 25px;
+        font-weight: $fw-medium;
+
+        @include media(small-max) {
+            text-align: center;
+            font-size: $fs-small;
+        }
+    }
+
+    &__calculation-note {
+        color: $black;
+        font-size: 14px;
+        display: block;
+        font-weight: $fw-light;
+
+        @include media(small-max) {
+            margin-top: 100px;
+            font-size: $fs-little;
+            font-weight: $fw-light;
+        }
+    }
+
+    &__input-slider {
+        margin-top: 45px;
+        margin-bottom: 37px;
+
+        @include media(small-max) {
+            margin-right: 0;
+            margin-top: -65px;
+        }
+        .slider {
+            background-color: #0FE1C3;
+            height: 1px;
+            position: relative;
+
+            &:before {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50px;
+                background-color: #0FE1C3;
+                position: absolute;
+                top: -4px;
+                left: 0;
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50px;
+                background-color: #0FE1C3;
+                position: absolute;
+                top: -4px;
+                right: 0;
+            }
+        }
+
+        .handle {
+            width: 167px;
+            height: 45px;
+            position: absolute;
+            top: -24px !important;
+            background: red;
+            background: url('../images/car.svg') center no-repeat;
+            cursor: pointer;
+            z-index:100;
+        }
+    }
+
+    &__final-offer {
+        text-align: center;
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    &__offer-msg {
+        display: block;
+        margin-bottom: 30px;
+        font-size: 14px;
+        font-weight:100;
+        color: $black;
+        float: left;
+    }
+
+    &__offer-value {
+        color: $black;
+        font-weight: $fw-medium;
+        font-size: 25px;
+        position: absolute;
+        top: 35px;
+    }
+    span.button__element
+    {  margin-left: -150%;
+    }
+    &__offer-button{
+        margin-right: 30%;
+    }
+    &__badges {
+        margin-right: -55px;
+        position: relative;
+        float:right;
+        margin-top: 1%;
+        margin-top: -40px;
+
+        li {
+            display: inline-block;
+            padding: 0 15px;
+            max-width: 40%;
+            vertical-align: middle;
+        }
+
+        img {
+            display: block;
+        }
+    }
+
+    &__gothaer {
+        margin-top: -10px;
+        width: 136px;
+    }
+
+    &__tuv {
+        width: 60px;
+    }
+
+    &__norton {
+        width: 67px;
+    }
+
+    &__tuvBadge {
+        width: 33px;
+    }
+
+    &__checkbox-right-big {
+      font-size: 18px;
+    }
+
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    left: -999em;
+}
+
+input[type="checkbox"] + label {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label::before {
+  content: "";
+  display: inline-block;
+  vertical-align: -25%;
+  height: 2ex;
+  width: 2ex;
+  background-color: white;
+  border: 1px solid rgb(166, 166, 166);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.10);
+  margin-right: 0.5em;
+}
+
+input[type="checkbox"]:checked + label::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    background: transparent;
+    top: 1ex;
+    left: 0.5ex;
+    border: 2px solid $color-Turquoise;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+
+

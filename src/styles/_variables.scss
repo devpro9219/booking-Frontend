@@ -1,0 +1,72 @@
+// Website variables
+
+// spacing variables
+$spacing-unit: 8px;
+$container-padding: $spacing-unit * 3;
+$container-padding-medium: $spacing-unit * 4.5;
+$container-padding-large: $spacing-unit * 8;
+$container-padding-wide: $spacing-unit * 12.5;
+
+
+// Max Widths
+$max-width-container: 1250px; // use this for content
+$max-width-content:   1680px; // use this for overflowing content
+
+
+// Breakpoints
+$bp-small:  480px;
+$bp-medium: 768px;
+$bp-large:  1200px;
+$bp-wide:   1680px;
+
+$breakpoints: (
+  small:       (min: $bp-small),
+  small-max:   (max: $bp-medium - 1),
+  medium:      (min: $bp-medium),
+  medium-only: (min: $bp-medium, max: $bp-large - 1),
+  medium-max:  (max: $bp-large - 1),
+  large:       (min: $bp-large),
+  large-max:   (max: $bp-large - 1),
+  wide:        (min: $bp-wide),
+  max-content: (min: $max-width-content + $container-padding-wide)
+
+);
+
+
+// z-index
+$negative-z: -1;
+$neutral-z:   0;
+$positive-z:  1;
+$high-z:      2;
+$top-z:       5;
+
+
+// Fonts
+$ff-alfa: "helveticaneue", sans-serif;
+$ff-icon: 'emil';
+
+$fs-little:     12px;
+$fs-small:      14px;
+$fs-normal:     16px;
+$fs-regular:    18px;
+$fs-medium:     20px;
+$fs-large:      22px;
+$fs-big:        24px;
+$fs-biggish:    28px;
+$fs-bigger:     32px;
+$fs-huge:       40px;
+
+$fw-light:   300;
+$fw-thin:  300;
+$fw-regular: 400;
+$fw-medium:  500;
+$fw-bold:    700;
+
+
+// Global vars
+$MainHeader-height:          $spacing-unit * 7.5;
+$MainHeader-height-medium:   $spacing-unit * 10;
+$MainHeader-height-large:    $spacing-unit * 11.5;
+$MainHeader-height-wide:     $spacing-unit * 13;
+
+// End website variables

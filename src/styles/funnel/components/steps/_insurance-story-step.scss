@@ -1,0 +1,87 @@
+.insurance-story-step {
+  &__radio-group {
+    width: 33%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+  }
+
+  &__radio {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5%;
+  }
+
+  &__radio-circle {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid $color-Turquoise;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 13px;
+      height: 13px;
+      border-radius: 50px;
+      background: $color-Turquoise;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      opacity: 0;
+      transition: opacity .15s linear;
+    }
+
+    &.checked {
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__radio-label {
+    vertical-align: middle;
+    color: $black;
+    font-size: 20px;
+    float: left;
+    font-weight: $fw-light;
+    margin-top: -4px;
+  }
+
+  &__radio-info-icon {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../images/info.svg') center no-repeat;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  &__container {
+    width: 500px;
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+
+    & .input-wrapper {
+      margin: auto;
+      text-align: center;
+    }
+  }
+
+  &__container:after {
+    clear: both;
+  }
+
+
+
+}
+

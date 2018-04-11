@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_paperless_scrolling</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M30.8724832,89.268712 C30.8724832,89.268712 90.2209732,93.516536 101.486342,96.550696 C101.486342,96.550696 106.960034,56.703096 113.980436,41.128 L59.8424497,41.128 C59.8424497,41.128 35.0973826,77.334608 30.8724832,89.268712" id="path-1"></path>
+        <filter x="-1.8%" y="-2.7%" width="103.6%" height="109.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.882413903   0 0 0 0 0.872734647   0 0 0 0 0.872734647  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M99.2635235,86.338536 C99.2635235,86.338536 102.760604,46.86652 112.442215,34.92 L62.3655034,34.92 C62.3655034,34.92 36.1948993,77.194152 27.7852349,82.048808 C27.7852349,82.048808 66.3333893,81.21228 99.2635235,86.338536 Z" id="path-3"></path>
+        <filter x="-1.8%" y="-2.9%" width="103.5%" height="109.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.882413903   0 0 0 0 0.872734647   0 0 0 0 0.872734647  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M27.7852349,73.610584 C27.7852349,73.610584 36.2666779,70.166696 40.0192282,50.650296 C43.7702349,31.134672 66.2801342,27.936 66.2801342,27.936 L114.353221,27.936 C114.353221,27.936 103.632752,38.514432 99.0659396,58.522816 C94.4991275,78.530424 93.0311409,78.366688 93.0311409,78.366688 L27.7852349,73.610584 Z" id="path-5"></path>
+        <filter x="-1.7%" y="-3.0%" width="103.5%" height="109.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.882413903   0 0 0 0 0.872734647   0 0 0 0 0.872734647  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M12.3489933,50.352312 L65.0352013,66.424048 C65.0352013,66.424048 98.1467114,24.932104 112.501644,21.488216 L56.8786913,20.176 C56.8786913,20.176 31.4335906,28.867976 12.3489933,50.352312" id="path-7"></path>
+        <filter x="-1.5%" y="-3.2%" width="103.0%" height="110.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.882413903   0 0 0 0 0.872734647   0 0 0 0 0.872734647  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0,38.044952 L51.8557383,55.893728 C51.8557383,55.893728 96.0026174,15.969304 113.754295,9.39348 L63.7686577,0 C63.7686577,0 21.4895638,8.453744 0,38.044952" id="path-9"></path>
+        <filter x="-1.3%" y="-2.7%" width="102.6%" height="108.9%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.882413903   0 0 0 0 0.872734647   0 0 0 0 0.872734647  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_paperless_scrolling">
+            <g id="Group" transform="translate(14.000000, 38.000000)" stroke-linecap="round" stroke-linejoin="round">
+                <g id="Page-1">
+                    <g id="Fill-1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#1A2020" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Fill-5">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use stroke="#1A2020" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Fill-9">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use stroke="#1A2020" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="Fill-13">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use stroke="#1A2020" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <g id="Fill-17">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use stroke="#1A2020" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                    <path d="M16.9147996,29.4762413 L53.8852207,41.4360499" id="Path-2" stroke="#06C3C3"></path>
+                    <path d="M26.3317757,22.9175824 L61.3929003,34.4610419" id="Path-2" stroke="#06C3C3"></path>
+                    <path d="M36.5420561,17.0549451 L69.7508962,27.8030476" id="Path-2" stroke="#06C3C3"></path>
+                    <path d="M47.2897196,11.7252747 L77.9205607,20.7857143" id="Path-2" stroke="#06C3C3"></path>
+                </g>
+            </g>
+            <path d="M92.933246,69.845634 C78.6040588,81.5098851 65.5584293,92.7736863 65.5584293,92.7736863 L17.9144181,76.3127336 L65.3750908,90.9513132 C65.3750908,90.9513132 86.6805354,73.4731676 96.0661014,66.3975346 C116.193593,51.22373 122.394296,49.2412134 122.394296,49.2412134 C117.990672,51.3201993 104.738039,60.2362914 92.933246,69.845634 Z" id="Fill-1" fill="#FAD214"></path>
+            <g id="Group-2" transform="translate(5.000000, 6.000000)" stroke="#1A2020">
+                <g id="Page-1">
+                    <path d="M148.697553,74.5121143 C148.697553,115.485171 115.482861,148.701158 74.509157,148.701158 C33.5361005,148.701158 0.320761363,115.485171 0.320761363,74.5121143 C0.320761363,33.5390578 33.5361005,0.323718696 74.509157,0.323718696 C115.482861,0.323718696 148.697553,33.5390578 148.697553,74.5121143 Z" id="Stroke-1"></path>
+                    <path d="M22.5881409,21.5308239 L127.775015,126.148259" id="Stroke-3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1,3,1,3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="168px" viewBox="0 0 182 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_contract</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="2.87455981e-16 8.94053221 2.87455981e-16 0.361282456 9.84077724 0.361282456 9.84077724 8.94053221"></polygon>
+        <polygon id="path-3" points="10.6082353 0 21.1510472 0 21.1510472 10.2057191 10.6082353 10.2057191 0.0654233159 10.2057191 0.0654233159 0 10.6082353 0"></polygon>
+    </defs>
+    <g id="Insurance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Insurance_Teilkasko" transform="translate(-1095.000000, -4537.000000)">
+            <g id="icon_contract" transform="translate(1082.000000, 4520.000000)">
+                <g id="Group" transform="translate(13.000000, 18.000000)">
+                    <g id="Group-4">
+                        <ellipse id="Oval-16-Copy-2" fill="#EFEFEF" opacity="0.7" cx="91" cy="157.059524" rx="91" ry="9.94047619"></ellipse>
+                        <path d="M89.4576271,160.041667 C128.073876,160.041667 159.378531,157.260102 159.378531,153.828869 C159.378531,150.397636 128.073876,150.10119 89.4576271,150.10119 C50.8413782,150.10119 19.5367232,150.397636 19.5367232,153.828869 C19.5367232,157.260102 50.8413782,160.041667 89.4576271,160.041667 Z" id="Oval-15-Copy-2" fill="#E1DFDF"></path>
+                        <path d="M152.180791,127.238095 L136.757062,143.142857" id="Line" stroke="#1A2020" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                        <path d="M159.378531,32.4340674 L159.378531,3.5828915 C159.378531,1.5997676 157.775079,0 155.797121,0 L36.4853644,0 C34.5030608,0 32.9039548,1.60454355 32.9039548,3.58384833 L32.9039548,36.8524971 L32.9039548,119.156407 L32.9039548,147.508988 C32.9039548,149.489498 34.5055472,151.095238 36.4812116,151.095238 L132.380056,151.095238 C134.359273,151.095238 137.064625,149.933693 138.430563,148.500854 L156.905281,129.121291 C158.264633,127.69536 159.378531,124.922792 159.378531,122.944015 L159.378531,88.9024135" id="Combined-Shape" stroke="#4C4C4C" fill="#FFFFFF" stroke-linecap="round"></path>
+                        <path d="M132.529821,150.491662 L158.37683,123.505376 L132.529821,123.505376 L132.529821,150.491662 Z" id="Rectangle-27" stroke="#4C4C4C"></path>
+                        <path d="M49.4617452,47.0515873 L130.448276,47.0515873" id="Line-Copy-12" stroke="#1A2020" stroke-linecap="round"></path>
+                        <path d="M65.2820254,25.7383513 L126.474576,25.7383513" id="Line-Copy-12" stroke="#FAD214" stroke-width="3" stroke-linecap="round"></path>
+                        <path d="M49.3561556,69.9146825 L127.760661,69.9146825" id="Line-Copy-16" stroke="#1A2020" stroke-linecap="round"></path>
+                        <path d="M49.2928597,57.9861111 L125.971669,57.9861111" id="Line-Copy-15" stroke="#1A2020" stroke-linecap="round"></path>
+                        <path d="M49.4406176,80.8492063 L135.828538,80.8492063" id="Line-Copy-17" stroke="#1A2020" stroke-linecap="round"></path>
+                        <path d="M49.9218594,91.7837302 L141.898305,91.7837302" id="Line-Copy-19" stroke="#1A2020" stroke-linecap="round"></path>
+                        <path d="M50.3841964,102.055232 L141.898305,102.055232" id="Line-Copy-18" stroke="#1A2020" stroke-linecap="round"></path>
+                        <path d="M50.4912764,112.989756 L141.898305,112.989756" id="Line-Copy-18" stroke="#1A2020" stroke-linecap="round"></path>
+                        <path d="M50.8983051,128.562846 L76.6386894,128.562846" id="Line-Copy-18" stroke="#1A2020" stroke-linecap="round"></path>
+                    </g>
+                    <g id="Group-37" transform="translate(134.000000, 36.000000)">
+                        <g id="Group-8">
+                            <g id="Group-38">
+                                <ellipse id="Oval" stroke="#1A2020" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1,3,1,3" cx="22.9004329" cy="23.4383202" rx="22.9004329" ry="23.4383202"></ellipse>
+                                <g id="Group-8" transform="translate(7.540984, 8.180895)">
+                                    <g id="Page-1" transform="translate(15.721589, 16.034210) rotate(-45.000000) translate(-15.721589, -16.034210) translate(-0.778411, 10.534210)">
+                                        <g id="Group-3" transform="translate(0.000000, 0.537143)">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <g id="Clip-2"></g>
+                                            <path d="M8.17717826,4.1819814 C8.17717826,2.73760358 8.65870645,1.40817438 9.4578814,0.361282456 L-0.000202322771,4.56550158 L9.84077724,8.94053221 C8.81449499,7.83885169 8.17717826,6.32679384 8.17717826,4.66379877 L8.17717826,4.1819814 Z" id="Fill-1" fill="#06C3C3" mask="url(#mask-2)"></path>
+                                        </g>
+                                        <g id="Group-6" transform="translate(10.621945, 0.000000)">
+                                            <mask id="mask-4" fill="white">
+                                                <use xlink:href="#path-3"></use>
+                                            </mask>
+                                            <g id="Clip-5"></g>
+                                            <path d="M17.4138141,10.2057191 L3.8027745,10.2057191 C1.74723135,10.2057191 0.0654233159,7.9094323 0.0654233159,5.10285955 C0.0654233159,2.2962868 1.74723135,0 3.8027745,0 L17.4138141,0 C19.4693572,0 21.1511653,2.2962868 21.1511653,5.10285955 C21.1511653,7.9094323 19.4693572,10.2057191 17.4138141,10.2057191" id="Fill-4" fill="#06C3C3" mask="url(#mask-4)"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

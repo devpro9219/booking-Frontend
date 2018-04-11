@@ -1,0 +1,298 @@
+.BenefitsBanner {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $color-offwhite;
+
+  overflow: hidden;
+
+  @include media(medium) {
+    padding-top: $spacing-unit * 4;
+  }
+
+  @include media(large) {
+    position: relative;
+    padding-top: $spacing-unit * 8;
+  }
+}
+
+.BenefitsBanner-title{
+  color: $color-darkGray3;
+  font-size: $fs-medium;
+  font-weight: $fw-medium;
+  text-align: center;
+  padding-bottom: $spacing-unit * 1.5;
+  margin-bottom: $spacing-unit * 3.75;
+  position: relative;
+
+  @include media(large){
+    margin-bottom: $spacing-unit * 5;
+    font-size: 30px;
+  }
+  @include media(small-max){
+    margin-bottom: $spacing-unit * 5;
+    margin-top:$spacing-unit * 5; ;
+  }
+
+}
+
+.BenefitsBanner-visual {
+  display: none;
+
+  @include media(large) {
+    display: block;
+
+    position: absolute;
+    top: -200%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+
+    width: 8px;
+
+    background: url('../images/benefits-banner/driving-line.svg') center center / 100% repeat-y;
+
+    animation: driving-line 9.5s linear infinite;
+
+    @keyframes driving-line {
+      0%, 100% { transform: translateY(0) translateZ(0); }
+      99.9999999% { transform: translateY(50%) translateZ(0)}
+    }
+  }
+}
+
+.BenefitsBanner-carWrapper {
+  display: block;
+  text-align: center;
+
+  @include media(large) {
+    position: absolute;
+    top: 200px; bottom: 200px;
+    right: calc(50% + #{$spacing-unit * 10});
+
+    width: 400px;
+
+    .BenefitsBanner-car {
+      transform: translateY(0) translateZ(0);
+
+      will-change: position;
+    }
+
+    &.from-bottom {
+
+      .BenefitsBanner-car {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+
+    &.is-visible {
+
+      .BenefitsBanner-car {
+        position: fixed;
+        top: 50%;
+        bottom: auto;
+        transform: translateY(-50%) translateZ(0);
+      }
+    }
+  }
+}
+
+.BenefitsBanner-car {
+  position: relative;
+  z-index: $positive-z;
+
+  display: inline-block;
+  margin: 0 auto $spacing-unit * 20;
+
+  display: none;
+  font-size: 0;
+
+
+  > img {
+    width: 100%;
+    max-height: 220px;
+    height: 100%;
+
+    // animation: moving-along 5s infinite ease-in-out;
+  }
+
+  @keyframes moving-along {
+    0%, 100% { transform: translateY(-2.5%); }
+    50%      { transform: translateY(2.5%); }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: $spacing-unit * -12;
+    left: -100px; right: -100px;
+
+    margin: 0 auto;
+
+    width: 244px;
+    height: 277px;
+
+    background: url('../images/car-top-view-visual.svg') center center / 100% no-repeat;
+
+    // animation: scrambling 0.75s infinite linear;
+  }
+
+  @keyframes scrambling {
+    0%, 100% { transform: translate(0%, 0%); }
+    20%      { transform: translate(0.25%, -0.25%); }
+    40%      { transform: translate(-0.25%, 0.25%); }
+    60%      { transform: translate(-0.25%, -0.25%); }
+    80%      { transform: translate(0.25%, -0.25%); }
+  }
+
+  @include media(large) {
+    display: block;
+    width: 400px;
+    margin: 0;
+
+    > img {
+      max-height: 350px;
+    }
+
+    &:before {
+      width: 360px;
+      height: 427px;
+
+      bottom: $spacing-unit * -18;
+    }
+  }
+}
+
+.BenefitsBanner-body {
+  max-width: $max-width-container;
+  margin: auto; }
+
+  @include media(medium){
+    padding-bottom: $spacing-unit * 12;
+  }
+
+  @include media(large) {
+    // margin: $spacing-unit * 30 0 $spacing-unit * 30 calc(50% + #{$spacing-unit * 14});
+    // padding-right: $spacing-unit * 10;
+    padding-bottom: $spacing-unit * 10;
+  }
+
+
+.BenefitsBanner-item {
+  margin-bottom: $spacing-unit * 8;
+  background-color: $color-white;
+  box-shadow: 0px 0px 4px 0px grey;
+  text-align: center;
+  width:400px;
+  height:480px;
+
+  @include media(small-max) {
+    margin: 0px auto 20px auto;
+    height: 100%;
+    padding: 30px 0px;
+    width: 90%;
+  }
+
+  @include media(medium-only) {
+    &:nth-last-child(-n+2) {
+      margin-bottom: $spacing-unit * 0;
+    }
+  }
+
+  @include media(medium) {
+    display: inline-block;
+    vertical-align: top;
+    margin:0.6%;
+    width:32%;
+    height:480px;
+    margin-bottom: $spacing-unit * 12;
+    padding: $spacing-unit * 3 - 1px;
+  }
+
+  @include media(large) {
+    width:400px;
+    height:480px;
+    padding: $spacing-unit * 6;
+  }
+}
+
+.BenefitsBanner-img {
+  height: 130px;
+  margin: 0 0 $spacing-unit;
+
+  @include media(medium) {
+    height: 150px;
+    margin-bottom: $spacing-unit;
+  }
+
+  @include media(large) {
+    margin-bottom: $spacing-unit * 2;
+  }
+}
+
+.BenefitsBanner-itemTitle {
+  position: relative;
+  margin: 0 0 $spacing-unit;
+  font-size: $fs-medium;
+  font-weight: $fw-medium;
+  color: $color-lightBlack;
+
+  @include media(medium) {
+    margin: 0 0 $spacing-unit * 1.5;
+    font-size: $fs-medium;
+  }
+
+  @include media(large) {
+    font-size: $fs-large;
+
+    transform-origin: left center;
+
+    &:before {
+      margin: 0;
+    }
+  }
+}
+
+.BenefitsBanner-desc {
+  max-width: 270px;
+  margin: 0 auto;
+
+  font-size: $fs-normal;
+  font-weight: $fw-light;
+
+  @include media(small) {
+    font-size: $fs-normal;
+  }
+
+  @include media(medium) {
+    max-width: 360px;
+    font-size: $fs-normal;
+  }
+
+  @include media(large) {
+    max-width: 440px;
+    margin: 0;
+
+    transform-origin: left center;
+
+    font-size: $fs-regular;
+  }
+}
+
+.BenefitsBanner-cta{
+  display: block;
+  margin-top: $spacing-unit * 1.5;
+  color: $color-Turquoise;
+  font-weight: $fw-medium;
+  font-size: $fs-small;
+  text-decoration: none;
+
+  @include iconAfter($icon-arrowRight);
+
+  &:after{
+    margin-left: $spacing-unit;
+    vertical-align: middle;
+  }
+}

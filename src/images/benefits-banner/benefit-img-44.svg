@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="167px" height="176px" viewBox="0 0 167 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="79" cy="43" r="13"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26" height="26" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="98.1853027" cy="10.1853027" r="10.1853027"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20.3706055" height="20.3706055" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-insurance" transform="translate(-972.000000, -1184.000000)">
+            <g id="Group" transform="translate(973.000000, 1184.000000)">
+                <ellipse id="Oval-15-Copy-3" fill="#E4E0FF" opacity="0.5" cx="78" cy="168" rx="74" ry="8"></ellipse>
+                <g id="Group-29">
+                    <ellipse id="Oval-15" fill="#C6BBFF" cx="46" cy="164.583333" rx="22" ry="4.58333333"></ellipse>
+                    <ellipse id="Oval-15-Copy" fill="#C6BBFF" cx="112" cy="164.583333" rx="22" ry="4.58333333"></ellipse>
+                    <g id="Group-27" transform="translate(1.000000, 113.000000)" fill="#EAE6FF">
+                        <path d="M0,0 C0,0 2.5,1 5.5,1 L10.9996258,1 C12.104402,1 13.2452393,1.8583374 13.5518031,2.93131079 L15,8 L7,6 L1,3 L0,0 Z" id="Path-16"></path>
+                        <path d="M30,40 C30,40 32,46 38,46 L61,46 L58,50 L50.5,52.5 L40.5,52.5 L33,51 L28.5,47 L28,40 L30,40 Z" id="Path-14"></path>
+                        <path d="M96,40 C96,40 98,46 104,46 L127,46 L124,50 L118,52 L106,52.5 L98,50.5 L95,46.5 L95,40 L96,40 Z" id="Path-14-Copy" transform="translate(111.000000, 46.250000) scale(-1, 1) translate(-111.000000, -46.250000) "></path>
+                    </g>
+                    <path d="M95.9301694,52.3696143 C124.785909,58.3857796 146,78.5698475 146,102.542893 C146,117.559517 137.676181,131.089452 124.364375,140.581767 L128.047735,153.105192 C130.230511,160.526629 125.724253,164.542893 118,165.14172 L106,165.14172 C101.588201,164.542893 96.986115,163.095684 96,159.14172 L94.0425094,153.087425 C88.8985394,154.038785 83.5262539,154.542893 78,154.542893 C73.0753445,154.542893 68.2729594,154.142567 63.6454586,153.382151 L62,159.14172 C60.7849951,163.107727 56.2003183,164.542893 52,165.14172 L40,165.14172 C32.043042,164.542893 27.5394324,160.54264 29.726917,153.105192 L33.1099614,141.602842 C24.3609995,135.718394 17.6051996,128.142198 13.7169375,119.542893 L10,119.542893 C3.37528199,119.542893 0,114.161056 0,107.523379 L0,92.5624063 C0,85.9242122 5.37515337,80.5428927 11.995113,80.5428927 L16.3677504,80.5428927 C18.4602395,77.1207914 20,75.1417202 24,70.9347782 C28.0671223,66.6572413 32.2951237,63.5139794 36,61.2534408 L36,46.1386918 C36,40.6175168 39.8771509,38.3608885 44.5748166,41.27116 C44.5748166,41.27116 47,42.1417202 51,46.1417202 C55,50.1417202 57,53.1417202 57,53.1417202 C59.1434186,52.5957795 60.2367393,52.3058507 62.407058,51.916459" id="Combined-Shape" stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M90.6806224,63.0838921 C87.0089256,62.6147553 86.1304365,62 79.3403112,62 C72.5501859,62 71.7040876,62.6193342 68,63.0970872" id="Combined-Shape-Copy-3" stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M144.396651,88.6313525 C144.396651,88.6313525 149.396651,81.6313525 157.396651,84.0764916 C165.396651,86.5216306 160.396651,96.0764916 155.396651,92.0764916 C151.562829,89.0094336 153.608284,80.6510256 162.434622,78.2713212" id="Path-12" stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(153.415637, 85.657071) scale(1, -1) rotate(51.000000) translate(-153.415637, -85.657071) "></path>
+                    <use id="Oval-10" stroke="#765DFF" mask="url(#mask-2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="#FAD214" xlink:href="#path-1"></use>
+                    <use id="Oval-10-Copy-12" stroke="#765DFF" mask="url(#mask-4)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="#F478A2" xlink:href="#path-3"></use>
+                    <rect id="Rectangle-22-Copy" fill="#F478A2" x="28" y="84" width="8" height="8" rx="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

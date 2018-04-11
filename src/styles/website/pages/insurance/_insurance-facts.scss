@@ -1,0 +1,602 @@
+.InsuranceFacts {
+  margin-top: $spacing-unit * 3;
+  margin-bottom: $spacing-unit * 10;
+  //padding: 0 $container-padding;
+
+  text-align: center;
+
+  @include media(large) {
+    margin-top: $spacing-unit * 15;
+  }
+  @include media(medium-only) {
+    margin-top: $spacing-unit * 10;
+  }
+  @include media(small-max) {
+  }
+
+}
+.car-driving-back {
+  background-image: url(../images/insurance-facts/car-driving.svg); background-size: cover; height: 757px;margin-top: 320px;
+  @include media(medium-only) {height: 515px;}
+  @include media(small-max) {padding:40px 0px 20px 0px;
+    background-image: url(../images/insurance-facts/car-driving-mobile.jpg); background-size: cover; height: 385px;margin-top: 320px;}
+
+
+  .InsuranceFacts-item-car {
+    max-width: 340px;
+    margin: 0 auto $spacing-unit * 5;
+
+    @include media(small-max) { padding:10px;
+
+      .InsuranceFacts-body {
+        margin-top: -270px;
+        padding-top: 0px;
+        padding-bottom: 180px;
+        text-align: left;
+        float: right;
+        padding-left: 0px;
+
+      }
+
+      .InsuranceFacts-title {
+
+        &:before {
+
+        }
+      }
+    }
+
+    @include media(large) {
+
+      margin: $spacing-unit * 2 auto;
+      max-width: 1250px;
+      height: 600px;
+
+      .InsuranceFacts-body {
+        margin-top: -180px;
+        padding-top: 0px;
+        padding-bottom: 180px;
+        text-align: left;
+        float: right;
+        padding-left: 0px;
+        padding-right: 120px;
+      }
+
+      .InsuranceFacts-title {
+
+        &:before {
+
+        }
+      }
+    }
+    @include media(medium-only) {
+
+      margin: $spacing-unit * 2 auto;
+      max-width: 1250px;
+      height: 600px;
+
+      .InsuranceFacts-body {
+        margin-top: -180px;
+        padding-top: 0px;
+        padding-bottom: 180px;
+        text-align: left;
+        float: right;
+        padding-left: 0px;
+        padding-right: 120px;
+      }
+
+      .InsuranceFacts-title {
+
+        &:before {
+
+        }
+      }
+    }
+  }
+}
+.back {background: $color-offwhite; width: 100%;
+
+  @include media(small-max) {padding:40px 0px 20px 0px;}
+
+
+  .InsuranceFacts-item {
+    max-width: 340px;
+    margin: 0 auto $spacing-unit * 5;
+
+    @include media(large) {
+
+      margin: $spacing-unit * 2 auto;
+      max-width: 1250px;
+      height: 600px;
+
+        .InsuranceFacts-body {
+          padding-top: 180px;
+          padding-bottom: 180px;
+          text-align: left;
+          padding-left: 0px;
+          padding-right: 120px;
+        }
+
+        .InsuranceFacts-title {
+
+          &:before {
+
+          }
+        }
+      }
+    @include media(medium) {
+
+      margin: $spacing-unit * 2 auto;
+      max-width: 1250px;
+      height: 600px;
+
+      .InsuranceFacts-body {
+        padding-top: 180px;
+        padding-bottom: 180px;
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 120px;
+      }
+
+      .InsuranceFacts-title {
+
+        &:before {
+
+        }
+      }
+    }
+    }
+
+}
+.last-section {background: #fff; width: 100%;
+
+  @include media(small-max) {padding:40px 0px 20px 0px;}
+
+
+  .InsuranceFacts-item {
+    max-width: 340px;
+    margin: 0 auto $spacing-unit * 5;
+
+    @include media(large) {
+
+      margin: $spacing-unit * 2 auto;
+      max-width: 1250px;
+      height: 600px;
+
+      .InsuranceFacts-body {
+        padding-top: 180px;
+        padding-bottom: 180px;
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 120px;
+      }
+
+      .InsuranceFacts-title {
+
+        &:before {
+
+        }
+      }
+    }
+    @include media(medium-only) {
+
+      margin: $spacing-unit * 2 auto;
+      max-width: 1250px;
+      height: 600px;
+
+      .InsuranceFacts-body {
+        padding-top: 180px;
+        padding-bottom: 180px;
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 120px;
+      }
+
+      .InsuranceFacts-title {
+
+        &:before {
+
+        }
+      }
+    }
+  }
+
+}
+  .InsuranceFacts-item {
+    max-width: 340px;
+    margin: 0 auto $spacing-unit * 5;
+
+    @include media(large) {
+
+      margin: $spacing-unit * 2 auto;
+      max-width: 1250px;
+      height: 600px;
+
+    }
+    @include media (wide)
+    { .InsuranceFacts-img {
+      width: 20%;
+    }
+      margin: $spacing-unit * 2 auto;
+      max-width: 1250px;
+      height: 600px;
+
+
+    }
+    @include media(medium) {
+
+      margin: $spacing-unit * 2 auto;
+      max-width: 1250px;
+      height: 600px;
+
+
+    }
+    @include media(small-max) { padding: 40px 10px 20px 10px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      .InsuranceFacts-img {
+        width: 60%;
+        margin-top: 40px;
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+      }
+      .InsuranceFacts-body {
+        width: 100%;
+        margin-top: 40px;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+      }
+      .InsuranceFacts-middle {
+        width: 100%;
+        -webkit-box-ordinal-group: 3;
+        -moz-box-ordinal-group: 3;
+        -ms-flex-order: 3;
+        -webkit-order: 3;
+        order: 3;
+      }
+    }
+
+  }
+
+.InsuranceFacts-item-top {
+  max-width: 340px;
+  margin: 0 auto $spacing-unit * 5;
+
+  @include media(large) {
+    margin: $spacing-unit * 2 auto;
+    max-width: 1250px;
+    .InsuranceFacts-img {
+      width: 25%; }
+  }
+  @include media (wide)
+  {
+    .InsuranceFacts-img {
+    width: 20%; }
+
+    margin: $spacing-unit * 2 auto;
+    max-width: 1250px;
+
+  }
+  @include media(medium) {
+
+    margin: $spacing-unit * 2 auto;
+    max-width: 1250px;
+
+  }
+  @include media(small-max) {
+    padding:10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    .InsuranceFacts-img {
+      width: 60%;
+      margin-top: 40px;
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      -ms-flex-order: 1;
+      -webkit-order: 1;
+      order: 1;
+    }
+    .InsuranceFacts-body {
+      width: 100%;
+      margin-top: 40px;
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2;
+    }
+    .InsuranceFacts-middle {
+      width: 100%;
+      -webkit-box-ordinal-group: 3;
+      -moz-box-ordinal-group: 3;
+      -ms-flex-order: 3;
+      -webkit-order: 3;
+      order: 3;
+    }
+  }
+
+}
+
+
+.InsuranceFacts-img {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto $spacing-unit * 3;
+
+  @include media(small-max) {
+    max-width: 250px;
+    margin: 0 auto $spacing-unit * 5;
+  }
+
+  @include media(medium) {
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 25%;
+  }
+
+  @include media(large) {
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 18%;
+    max-width: 300px;
+    margin-bottom: 0;
+  }
+
+  @include media(wide) {
+    max-width: 450px;
+  }
+}
+.InsuranceFacts-body-top
+{
+  @include media(large) {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    padding-left: $spacing-unit * 15;
+    text-align: left;
+  }
+
+  @include media(medium) {
+    display: inline-block;
+    vertical-align: middle;
+    width:50%;
+    padding-left: $spacing-unit * 15;
+    text-align: left;
+  }
+  @include media(small-max) {
+    text-align: left;
+      width: 100%;
+      margin-top: 40px;
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2;
+
+
+  }
+}
+.InsuranceFacts-body {
+
+  @include media(large) {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    padding-left: $spacing-unit * 15;
+    text-align: left;
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  @include media(medium) {
+    display: inline-block;
+    vertical-align: middle;
+    width:50%;
+    padding-left: $spacing-unit * 15;
+    text-align: left;
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+  @include media(small-max) {
+    text-align: left;
+  }
+}
+
+.InsuranceFacts-title {
+  position: relative;
+
+  padding-bottom: $spacing-unit * 1.75;
+  margin-bottom: $spacing-unit * 2.25;
+
+  font-size: $fs-bigger - 5;
+  font-weight: $fw-medium;
+  line-height: 1.3;
+
+  @include media(small-max) {
+    font-size: $fs-large;
+   text-align: left;}
+
+  > b {
+    display: block;
+
+    font-size: 60px;
+    font-weight: $fw-light;
+    line-height: 0.9;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 0;
+    width: $spacing-unit * 8;
+    height: 1px;
+    background-color: $color-brand-alfa;
+
+  }
+
+  @include media(large) {
+    padding-bottom: $spacing-unit * 3;
+    margin-bottom: $spacing-unit * 3.75;
+
+    font-size: $fs-bigger - 5;
+
+
+    &:before {
+      margin: 0;
+      height: 2px;
+    }
+
+    > b {
+      display: inline;
+      font-size: inherit;
+    }
+  }
+}
+
+.InsuranceFacts-desc {
+  font-size: $fs-regular;
+  font-weight: $fw-light;
+
+  @include media(large) {
+    font-size: $fs-regular;
+  }
+  @include media(small-max) {
+   text-align: left;
+    font-size: $fs-regular - 2;
+  }
+}
+.InsuranceFacts-middle {
+  font-size: $fs-bigger - 2;
+  font-weight: $fw-light;
+
+
+  @include media(large) {
+    font-size: $fs-bigger - 8;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+  }
+
+  @include media(medium-only) {
+    font-size: $fs-bigger - 10;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 25px;
+  }
+
+  @include media(small-max) {
+    font-size: $fs-bigger - 12;
+    width: 75%;
+    padding-bottom: 70px;
+    margin: auto;
+  }
+}
+.InsuranceFacts-tabs
+{  padding-bottom: $spacing-unit * 12;
+  width:1250px;
+  margin: auto;
+  @include media(medium-only){ width: 80%;}
+  @include media(small-max){ width: 80%;}
+  > h3 {
+    font-size: $fs-bigger;
+    font-weight: $fw-light;
+    margin-top: $spacing-unit * 12;
+    margin-bottom: $spacing-unit * 5;
+
+    @include media(small-max){font-size: $fs-bigger - 8px;}
+  }
+}
+.react-tabs__tab-list
+{border-bottom: 1px solid $color-Turquoise;
+  margin: 0 0 10px;
+  padding: 0;}
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  width:50%;
+  font-size: $fs-big;
+  color:$color-Turquoise;
+  font-weight: $fw-regular;
+  @include media(small-max){font-size: $fs-big - 2;width:50%; }
+
+}
+.react-tabs__tab--selected
+{    background: transparent;
+  border-bottom: 4px solid $color-Turquoise;
+  color: $color-Turquoise;
+  font-weight: $fw-bold;
+
+  &:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid $color-Turquoise 10px;
+    bottom: -13px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 0;}
+  }
+
+.react-tabs__tab-panel--selected {
+
+  > p {
+    width:1050px;
+    margin: auto;
+    padding-top: 20px;
+    font-weight: $fw-light;
+    font-size: $fs-medium;
+    > span {  color: $color-Turquoise; font-weight: $fw-bold;}
+
+    @include media(small-max) {width: 90%; font-size: $fs-medium - 4;}
+    @include media(medium) {width: 90%; font-size: $fs-medium - 2;}
+    @include media(large) {width: 1050px; }
+  }
+  > h5 {font-size: 20px; font-weight: $fw-medium; margin-top: 20px; margin-bottom: 10px;
+    color: $black;}
+  > div {margin-top: 30px;}
+}
+.tabs-img
+{width: 40%;
+
+@include media(wide) {width: 20%;}
+  @include media(small-max) {width: 100%;}
+  @include media(medium) {width: 55%;}
+  @include media(large) {width: 45%;}
+}
+

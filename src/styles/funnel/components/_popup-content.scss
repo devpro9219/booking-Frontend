@@ -1,0 +1,11 @@
+.popup-content {
+
+    &__green-text{
+        font-size: $fs-medium;
+        color: $color-brightTurquoise;
+        font-weight: $fw-medium;
+        text-align: center;
+        margin-bottom: 45px;
+        padding: 10px;
+    }
+}

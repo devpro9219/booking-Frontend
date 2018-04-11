@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="164px" viewBox="0 0 151 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M106.768008,61.6945811 C106.768008,56.7754682 110.773961,52.7877392 115.693153,52.7877392 C120.622375,52.7877392 124.219854,56.8513301 124.219854,61.7588648 L124.219854,74.8368524 L124.219854,101.712362 C124.219854,106.131462 122.119613,112.625184 119.30682,116.025584 C119.30682,116.025584 109.477427,132.700962 88.3598956,132.700962 C82.8701832,132.700962 86.1184124,132.700962 79.1956839,132.700962 C72.2729555,132.700962 63.9520535,130.797195 56.4843767,126.35969 C41.4638034,117.434038 35.2514455,98.301212 35.2514455,98.301212 L23.4135258,74.8368524 C20.9507633,70.5901179 22.4235574,65.1533551 26.6837024,62.7046544 C30.9525335,60.250961 36.4186504,61.7201687 38.8723309,65.9512424 L45.2482563,79.444569 C48.5951857,86.1087764 53.217136,84.9980752 54.3327792,79.444569 C54.3327792,75.001764 53.217136,23.5799081 53.217136,23.5799081 C53.217136,18.6762015 57.2230896,14.7009619 62.1422813,14.7009619 C67.0715029,14.7009619 71.0674266,18.694285 71.0674266,23.5799081 L71.0674266,70.5589591 L71.0674266,48.3382706 C71.0674266,43.434564 75.0733803,39.4593243 79.9925719,39.4593243 C84.9217936,39.4593243 88.9177172,43.4526475 88.9177172,48.3382706 L88.9177172,70.5589591 L88.9177172,52.7810755 C88.9177172,47.8773689 92.9236709,43.9021293 97.8428625,43.9021293 C102.772084,43.9021293 106.768008,47.8954524 106.768008,52.7810755 L106.768008,70.5589591 L106.768008,61.6945811 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-8" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.894372993   0 0 0 0 0.875414299   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="48" y="128" width="70" height="24" rx="8"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-6" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.894372993   0 0 0 0 0.875414299   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <ellipse id="Oval-14-Copy-6" fill="#765DFF" opacity="0.1" cx="84" cy="153" rx="66" ry="10"></ellipse>
+            <ellipse id="Oval-14-Copy-7" fill="#765DFF" opacity="0.35" cx="84" cy="151" rx="47" ry="7"></ellipse>
+            <path d="M84.6950898,31.7861246 C85.6280625,29.1106126 86.0902302,26.2199996 85.9853824,23.2175499 C85.5320389,10.2354934 74.6497677,0.0786409486 61.6791492,0.531584928 C48.7085306,0.984528907 38.5612742,11.8757487 39.0146176,24.8578051 C39.1215078,27.9187372 39.8081736,30.8226075 40.9652884,33.4673772" id="Oval-23-Copy" stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <ellipse id="Oval-23-Copy-3" fill="#FAD214" cx="62.2079295" cy="24.739228" rx="16.2079295" ry="16.2222222"></ellipse>
+            <g id="Rectangle-50-Copy">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+            </g>
+            <g id="Rectangle">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-3"></use>
+            </g>
+            <rect id="Rectangle-52-Copy" fill="#765DFF" x="57.8798093" y="136.591442" width="6.4" height="6.36734694" rx="3.18367347"></rect>
+            <path d="M38.5030863,21.5170058 L1,21.5170058" id="Path-53" stroke="#765DFF" stroke-width="2" stroke-linecap="round"></path>
+            <polyline id="Path-84" stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="10.5 11.5170058 0 21.5170058 10.5 31.5170058"></polyline>
+        </g>
+    </g>
+</svg>

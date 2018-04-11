@@ -1,0 +1,42 @@
+{
+  "name": "emil-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bem-cn": "^2.1.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "iban": "0.0.8",
+    "joi": "^10.6.0",
+    "morgan": "^1.8.2",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.0.2",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-dropdown": "^1.3.2",
+    "react-input-slider": "^1.6.0",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "react-tabs": "^2.1.0",
+    "redux": "^3.6.0",
+    "redux-promise": "^0.5.3",
+    "requestretry": "^1.12.2",
+    "velocity-animate": "^1.5.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "start:local": "pm2 delete pm2-local.json && pm2 start pm2-local.json",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:9000"
+}

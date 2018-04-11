@@ -1,0 +1,7 @@
+.funnel-root {
+  display: flex;
+   flex-direction: column;
+   .funnel-footer{ position:fixed;
+     .funnel-footer__badges {text-align: right;}
+   }
+}

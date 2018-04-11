@@ -1,0 +1,17 @@
+export default [
+    {value: 'M', name: 'M'},
+    {value: '0', name: '0'},
+    {value: 'S', name: 'S'},
+    {value: 'SF1/2', name: 'SF1/2'},
+    {value: 'SF1', name: 'SF1'},
+    {value: 'SF2', name: 'SF2'},
+    {value: 'SF3', name: 'SF3'},
+    {value: 'SF4', name: 'SF4'},
+    {value: 'SF5', name: 'SF5'},
+    {value: 'SF6', name: 'SF6'},
+    {value: 'SF7', name: 'SF7'},
+    {value: 'SF8', name: 'SF8'},
+    {value: 'SF9', name: 'SF9'},
+    {value: 'SF10', name: 'SF10'},
+    {value: 'SF11', name: 'SF11'},
+];

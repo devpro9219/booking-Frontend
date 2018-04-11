@@ -1,0 +1,128 @@
+.cta-btn {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 150px;
+	background-color: $purple;
+	font-size: 18px;
+	text-decoration: none;
+	color: $white;
+	text-align: center;
+	border-radius: 30px;
+	transition: background-color 0.2s ease-in-out;
+	text-transform: uppercase;
+	@extend %font-light;
+	@include tablet {
+		height: 45px;
+		line-height: 45px;
+		width: 190px;
+		font-size: 20px;
+	}
+	@include desktop {
+		height: 50px;
+		line-height: 50px;
+		width: 240px;
+	}
+
+	&:hover {
+		background-color: $blue;
+		color: $white;
+	}
+}
+
+.tab-btn {
+	color: $white;
+	background-color: $yellow;
+	border-color: $yellow;
+	border-radius: 5px 5px 0 0 ;
+	border: 1px solid $yellow;
+	border-bottom: none;
+	margin-bottom: -1px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+	display: inline-block;
+	float: left;
+	width: calc(50% - 15px);
+	padding: 0;
+	@extend %font-semibold;
+	&:first-of-type {
+		margin-right: 15px;
+	}
+
+	&.active {
+		background: $white;
+		color: $blue;
+		border-color: $purple;
+
+		&:hover {
+			background: $white;
+			cursor: default;
+		}
+	}
+
+	&:hover {
+		background: $purple;
+		border-color: $purple;
+		cursor: pointer;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	@include tablet {
+		font-size: 18px;
+		height: 70px;
+		line-height: 70px;
+		&:first-of-type {
+			margin-right: 30px;
+		}
+	}
+
+	@media (min-width: 1170px) {
+		font-size: 25px;
+	}
+
+	@include desktop {
+		height: 100px;
+		line-height: 100px;
+		
+	}
+}
+
+.scroll-top {
+	width: 60px;
+	height: 60px;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	border-radius: 50%;
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 30px;
+	transition: transform 0.3s ease-in-out;
+	cursor: pointer;
+	@include bgr('down-arrow.svg');
+	background-size: 50%;
+	@include tablet {
+		right: 50px;
+	}
+	@include laptop {
+		right: 80px;
+	}
+
+	@include desktop {
+		right: get-vw(125px);
+	} 
+
+	&:hover {
+		transform: scale(1.1);
+	}
+
+	@include tablet {
+		display: inline-block;
+	}
+
+}

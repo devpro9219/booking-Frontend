@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="101px" viewBox="0 0 81 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>telematic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="21" y="51" width="41" height="41" rx="5"></rect>
+        <filter x="-6.1%" y="-6.1%" width="112.2%" height="112.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="4" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.980392157   0 0 0 0 0.823529412   0 0 0 0 0.0784313725  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="F&amp;Q" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1136.000000, -610.000000)" id="telematic">
+            <g transform="translate(1137.000000, 611.000000)">
+                <g id="Group-18" transform="translate(3.000000, 85.000000)" opacity="0.2">
+                    <ellipse id="Oval-16-Copy-3" fill="#E1DFDF" cx="38" cy="7.5" rx="38" ry="7.5"></ellipse>
+                    <ellipse id="Oval-14" fill="#B3B3B3" cx="38" cy="7.5" rx="30" ry="4.5"></ellipse>
+                </g>
+                <g id="Group-17">
+                    <g id="Rectangle-5">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <rect stroke="#1A2020" stroke-width="1" x="21.5" y="51.5" width="40" height="40" rx="5"></rect>
+                    </g>
+                    <rect id="Rectangle-5" fill="#06C3C3" x="33" y="63" width="18" height="18" rx="2"></rect>
+                    <g id="Group-10" stroke="#1A2020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M79,16.1842105 C68.0092576,5.65008141 54.8623491,0.00664000212 39.5084678,5.86253635e-06 C24.1461187,-0.00662827705 10.9889597,5.61735299 0,16.149713" id="Stroke-4"></path>
+                        <path d="M67.2567568,28.0266433 C59.591858,20.3240958 50.3141981,16.1787447 39.4857219,16.1842159 C28.6866805,16.1896871 19.4388947,20.3364061 11.7432432,28.0526316" id="Stroke-6"></path>
+                        <path d="M57.6486486,41 C48.2030075,29.7124505 33.1467299,29.3369277 23.4864865,40.8097788" id="Stroke-8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

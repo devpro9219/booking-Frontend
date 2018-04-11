@@ -1,0 +1,114 @@
+.Erstinformation {
+    background-color: $color-darkGray2;
+    padding-top: $MainHeader-height;
+
+    @include media (medium) {
+        padding-top: $MainHeader-height-medium;
+    }
+
+    @include media (large) {
+        padding-top: $MainHeader-height-large;
+    }
+
+    @include media (wide) {
+        padding-top: $MainHeader-height-wide;
+    }
+}
+
+.Erstinformation-content {
+    @extend %u-container;
+    background-color: $color-white;
+    padding: $spacing-unit * 2.5 $spacing-unit * 3 $spacing-unit * 4.5;
+
+    h1 {
+        position: relative;
+        color: $color-Turquoise;
+        font-size: 20px;
+        font-weight: $fw-regular;
+        padding-bottom: $spacing-unit * 2.5;
+        margin-bottom: $spacing-unit * 2;
+        &:after {
+            content: '';
+            width: 20px;
+            height: 2px;
+            background-color: $color-Turquoise;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    }
+
+    h2 {
+        font-size: $fs-normal;
+        font-weight: $fw-medium;
+        color: $color-lightBlack;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: $fw-medium;
+        span
+        {
+            font-weight: $fw-light;
+        }
+    }
+
+    h2 + p {
+        margin-top: 0;
+    }
+
+    p, a, li{
+        font-weight: $fw-light;
+    }
+
+    p {
+        font-size: $fs-normal;
+        color: $color-lightBlack;
+
+        span{
+            font-weight: $fw-medium;
+
+        }
+    }
+
+    a {
+        color: $color-Turquoise;
+    }
+
+    ul{
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    li{
+        color: $color-lightBlack;
+        font-size: $fs-normal;
+    }
+
+    @include media (medium) {
+        padding: $spacing-unit * 7.5 $spacing-unit * 13.75 $spacing-unit * 17.5;
+
+        h1{
+            font-size: 45px;
+            margin-bottom: $spacing-unit * 3;
+            &:after{
+                width: 30px;
+            }
+        }
+
+        h2 {
+            font-size: $fs-large;
+        }
+
+        h2 + p {
+            margin-top: 10px;
+        }
+
+        p, a, li {
+            font-size: $fs-medium;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700px" height="261px" viewBox="0 0 700 261" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Teilkasko_calculation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Insurance_Teilkasko" transform="translate(-464.000000, -3943.000000)">
+            <g id="Teilkasko_calculation" transform="translate(464.000000, 3943.000000)">
+                <text id="Monatliche-Grundbeit" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="20" font-weight="300" line-spacing="44" fill="#1A2020">
+                    <tspan x="35" y="43">Monatliche Grundbeitrag</tspan>
+                </text>
+                <text id="9,40-€" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" line-spacing="44" fill="#1A2020">
+                    <tspan x="575.6" y="50">9,40 €</tspan>
+                </text>
+                <path d="M33.5534151,81.5 L664.447556,81.5" id="Line" stroke="#1A2020" stroke-width="0.5" stroke-linecap="square"></path>
+                <text id="Kilometerbeitrag-pro" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="20" font-weight="300" line-spacing="44" fill="#1A2020">
+                    <tspan x="32" y="107">Kilometerbeitrag pro Monat</tspan>
+                </text>
+                <text id="700-km-gefahren-x-1," font-family="HelveticaNeue-Light, Helvetica Neue" font-size="25" font-weight="300" line-spacing="44" fill="#1A2020">
+                    <tspan x="33" y="142">700 km gefahren x </tspan>
+                    <tspan x="241.425" y="142" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">1,9 ct pro km</tspan>
+                </text>
+                <text id="13,30-€" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" line-spacing="44" fill="#1A2020">
+                    <tspan x="558.92" y="135">13,30 €</tspan>
+                </text>
+                <path d="M33.5534151,168.5 L664.447556,168.5" id="Line" stroke="#1A2020" stroke-width="0.5" stroke-linecap="square"></path>
+                <text id="Monatssumme" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="25" font-weight="300" line-spacing="44" fill="#1A2020">
+                    <tspan x="33" y="211">Monatssumme</tspan>
+                </text>
+                <text id="22,70-€" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="30" font-weight="400" line-spacing="44" fill="#1A2020">
+                    <tspan x="558.92" y="218">22,70 €</tspan>
+                </text>
+                <rect id="Rectangle-14" stroke="#1A2020" stroke-width="0.5" x="0.25" y="0.25" width="699.5" height="260.5" rx="10"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

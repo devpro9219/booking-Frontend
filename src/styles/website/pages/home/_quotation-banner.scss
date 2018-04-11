@@ -1,0 +1,159 @@
+.QuotationBanner {
+  position: relative;
+  padding: $spacing-unit * 7 $container-padding $spacing-unit * 16;
+
+  text-align: center;
+  color: $color-white;
+  font-weight: $fw-light;
+
+  background: linear-gradient(140deg, #abf5f5 0%, #06c3c3  60%);
+
+  @include media(medium) {
+    padding: $spacing-unit * 7 $container-padding $spacing-unit * 18;
+  }
+
+  @include media(large) {
+    padding: $spacing-unit * 8.5 $container-padding $spacing-unit * 18;
+  }
+}
+
+.QuotationBanner-container {
+  position: relative;
+
+  min-height: 400px;
+  max-width: 500px;
+
+  margin: 0 auto;
+
+  @include media(medium) {
+    max-width: 600px;
+    min-height: 375px;
+  }
+}
+
+.QuotationBanner-title {
+  font-size: $fs-small;
+  font-weight: $fw-medium;
+
+  @include media(medium) {
+    font-size: $fs-normal;
+  }
+}
+
+.QuotationBanner-titleImg {
+  width: 24px;
+  margin: 0 auto $spacing-unit * 1;
+}
+
+.QuotationBanner-quote {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateY($spacing-unit * 4);
+  margin: 0;
+  font-size: $fs-medium;
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 1.5s ease,
+              visibility 0s 1.5s;
+
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+
+    transition: opacity 1.25s ease 0.25s,
+                visibility 0s 0s;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $spacing-unit * 6;
+  }
+
+  q {
+    quotes: "“" "”";
+    font-weight: $fw-regular;
+
+  }
+
+  @include media(medium) {
+    font-size: $fs-biggish;
+  }
+}
+
+.QuotationBanner-image{
+  display: block;
+  margin: 0 auto $spacing-unit * 1.5;
+}
+
+.QuotationBanner-quoteAuthor {
+  position: relative;
+
+  font-size: $fs-small;
+  font-weight: $fw-medium;
+  font-style: normal;
+  display: block;
+  margin-bottom: $spacing-unit * 3;
+
+  @include media(medium) {
+    font-size: $fs-normal;
+  }
+
+  @include media(large) {
+    font-size: $fs-regular;
+    margin-bottom: $spacing-unit * 4.25;
+  }
+}
+
+.QuotationBanner-counter {
+  position: absolute;
+  left: 0; right: 0;
+  bottom: $spacing-unit * 7.5;
+
+  margin: 0 auto;
+
+  > li {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+
+    > i {
+      display: block;
+      width: $spacing-unit * 0.5;
+      height: $spacing-unit * 0.5;
+
+      margin: 0 $spacing-unit * 1;
+
+      border-radius: 100%;
+      background-color: $color-white;
+
+      transition: background-color 0.2s ease;
+    }
+
+    &.is-active > i {
+      background-color: $color-candlelight;
+    }
+  }
+
+  @include media(medium) {
+    bottom: $spacing-unit * 7.5;
+
+    > li {
+
+      > i {
+        width: $spacing-unit * 0.75;
+        height: $spacing-unit * 0.75;
+      }
+    }
+  }
+
+  @include media(large) {
+    bottom: $spacing-unit * 8.125;
+    > li {
+
+      > i {
+        width: $spacing-unit * 1;
+        height: $spacing-unit * 1;
+      }
+    }
+  }
+}

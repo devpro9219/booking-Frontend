@@ -1,0 +1,62 @@
+.container {
+    max-width: 1310px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.step-wrapper {
+    &.offer-final-step {
+        .wizard {
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+
+.wizard {
+    display: block;
+    margin-top: 150px;
+    position: relative;
+
+    @include media(small-max) {
+        margin-top: 50px;
+    }
+}
+
+.page-enter {
+    transform: translate(100%);
+}
+
+.page-enter, .page-right-enter{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+}
+.page-enter.page-enter-active {
+    transform: translate(0%);
+    transition: transform .3s ease-in-out, opacity .5s linear;
+    opacity: 1;
+}
+.page-leave, .page-right-leave {
+    transform: translate(0%);
+}
+.page-leave.page-leave-active {
+    transform: translate(-100%);
+    transition: transform .3s ease-in-out;
+}
+
+.page-right-enter {
+    transform: translate(-100%);
+    opacity: 0;
+}
+.page-right-enter.page-right-enter-active {
+    transform: translate(0%);
+    transition: transform .3s ease-in-out, opacity .5s linear;
+    opacity: 1;
+}
+.page-right-leave.page-right-leave-active {
+    transform: translate(100%);
+    transition: transform .3s ease-in-out;
+}

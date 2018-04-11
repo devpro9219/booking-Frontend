@@ -1,0 +1,49 @@
+// @font-face {
+//   font-family: 'Calluna';
+//   src: url('/fonts/Calluna W01 Regular.woff') format('woff'),
+//        url('/fonts/Calluna W01 Regular.woff2') format('woff2');
+// }
+
+@font-face {
+  font-family: "emil";
+  src:url("../fonts/icons/emil.eot");
+  src:url("../fonts/icons/emil.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/icons/emil.woff") format("woff"),
+  url("../fonts/icons/emil.ttf") format("truetype"),
+  url("../fonts/icons/emil.svg#emil") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'helveticaneue';
+  src: url('../fonts/helveticaneue/helveticaneueit-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneue/helveticaneueit-webfont.woff') format('woff');
+  font-weight: $fw-regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helveticaneue';
+  src: url('../fonts/helveticaneue/helveticaneue_light-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneue/helveticaneue_light-webfont.woff') format('woff');
+  font-weight: $fw-light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helveticaneue';
+  src: url('../fonts/helveticaneue/helveticaneue_medium-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneue/helveticaneue_medium-webfont.woff') format('woff');
+  font-weight: $fw-medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helveticaneue';
+  src: url('../fonts/helveticaneue/helvetica_neu_bold-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneue/helvetica_neu_bold-webfont.woff') format('woff');
+  font-weight: $fw-bold;
+  font-style: normal;
+}

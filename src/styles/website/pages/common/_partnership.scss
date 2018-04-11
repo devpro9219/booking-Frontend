@@ -1,0 +1,65 @@
+.Partnership {
+  background-color: #FAFAFA;
+  padding: 60px 0;
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: 0;
+
+  @include media(medium) {
+    padding: 120px 0;
+  }
+
+}
+
+.Partnership-content {
+  @extend %u-container;
+}
+
+.Partnership-img {
+  width: 216px;
+  margin: 0 auto $spacing-unit * 10;
+
+  @include media(medium) {
+    margin-bottom: 0;
+  }
+
+  @include media(large) {
+    width: 323px;
+    margin: 0;
+    margin-left: 110px;
+
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.Partnership-body {
+
+  @include media(small-max) {
+    padding: 0 24px;
+  }
+
+  @include media(medium) {
+    display: inline-block;
+    vertical-align: middle;
+
+    width: calc(100% - 433px);
+    padding-left: $spacing-unit * 10;
+
+    text-align: left;
+  }
+
+  @include media(large) {
+    padding-left: $spacing-unit * 22;
+  }
+}
+
+.Partnership-description {
+  margin: 0 auto;
+
+  color: #1A2020;
+
+  font-size: 20px;
+  font-weight: $fw-light;
+}

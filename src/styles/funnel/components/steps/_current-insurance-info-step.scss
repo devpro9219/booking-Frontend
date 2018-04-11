@@ -1,0 +1,273 @@
+.current-insurance-info-step {
+
+    &__container {
+        width: 900px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    &__title{
+        color: $black;
+        font-size: 25px;
+        font-weight: $fw-light;
+        margin-bottom: 50px;
+        /*padding-right: 35px;*/
+        padding-left: 35px;
+
+        &.start-date{
+            margin-top: 60px;
+            margin-bottom: 30px;
+        }
+    }
+    
+    &__input {
+        margin-bottom: 20px;
+
+        &.is-error {
+            input {
+                border-color: $color-flushMahogany;
+            }
+        }
+
+        &.success, &.error {
+            position: relative;
+
+            &:after{
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 2px;
+            }
+        }
+
+        &.error {
+            &:after{
+                background-image: url('../images/exclamation_point.svg');
+                width: 6px;
+                height: 18px;
+            }
+            input {
+                border-color: $color-flushMahogany;
+            }
+        }
+
+        &.success {
+            &:after{
+                background-image: url('../images/check2.svg');
+                width: 24px;
+                height: 17px;
+            }
+            input {
+                border-color: $color-brightTurquoise;
+            }
+        }
+
+        input {
+            font-size: 20px;
+            border: none;
+            background: none;
+            border-bottom: 1px solid #B3B3B3;
+            width: 100%;
+            outline: none;
+            color: $black;
+
+            &::placeholder {
+                color: rgba(76, 76, 76, 0.2);
+            }
+        }
+    }
+
+    &__inputs {
+        margin-bottom: 45px;
+
+        @include media(medium) {
+            margin: 0 auto;
+            width: 50%;
+            text-align: center;
+
+            &.half-width{
+                vertical-align: top;
+                display: inline-block;
+                text-align: left;
+            }
+
+            &.date-wrapper{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__input {
+        margin-bottom: 20px;
+        
+        
+
+        &.date-container {
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+
+        &.half-width {
+            display: inline-block;
+            width: 50%;
+            padding-right: 20px;
+
+            & ~ & {
+                padding-left: 20px;
+                padding-right: 0;
+
+                @include media(medium) {
+                    padding-right: 35px;
+                    padding-left: 35px;
+                }
+            }
+        }
+        @include media(medium) {
+            padding-right: 35px;
+            padding-left: 35px;
+        }
+
+        input {
+            font-size: 20px;
+            border: none;
+            background: none;
+            border-bottom: 1px solid #B3B3B3;
+            width: 100%;
+            outline: none;
+            color: $black;
+
+            &::placeholder {
+                color: rgba(76, 76, 76, 0.2);
+            }
+        }
+    }
+
+    &__date-wrapper{
+        display: inline-block;
+        width: 55px;
+        margin: 0 10px;
+        position: relative;
+
+        &:after{
+            content: '\25A0';
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: -12px;
+            transform: translateY(-50%);
+            font-size: 4px;
+            color: $black;
+        }
+
+        &.year{
+            width: 80px;
+
+            &:after{
+                display: none;
+            }
+        }
+
+        input {
+            text-align: center;
+        }
+    }
+
+    &__label {
+        font-weight: $fw-light;
+        font-size: 12px;
+        color: $black;
+    }
+
+    .button {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+}
+
+.Dropdown-root {
+    position: relative;
+}
+
+.Dropdown-control {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #333;
+    cursor: default;
+    outline: none;
+    padding: 8px 52px 8px 10px;
+    transition: all 200ms ease;
+}
+
+.is-open .Dropdown-arrow:before {
+    border-color: transparent transparent #999;
+    border-width: 0 5px 5px;
+
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+
+}
+
+.Dropdown-arrow:before {
+
+    height: 15px;
+    margin-top: -ceil(2.5);
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    width: 15px;
+
+    line-height: 27px;
+    color: #06C3C3;
+    margin-left: -3px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    display: inline-block;
+
+    content: "b";
+    font-family: "emil" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.Dropdown-menu {
+    background-color: white;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+    box-sizing: border-box;
+    margin-top: -1px;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 1000;
+    -webkit-overflow-scrolling: touch;
+}
+
+.Dropdown-option.is-selected {
+    background-color: #f2f9fc;
+    color: #333;
+}
+.Dropdown-option {
+    box-sizing: border-box;
+    color: #1A2020;
+    font-size: 15px;
+    font-weight: $fw-light;
+    cursor: pointer;
+    display: block;
+    padding: 8px 10px;
+    border-bottom: 1px solid #ccc;
+}

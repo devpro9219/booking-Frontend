@@ -1,0 +1,207 @@
+// this turned out to be a bad idea css wise
+// sorry
+
+.JoinEmil {
+  margin-bottom: $spacing-unit * 11.25;
+
+  overflow: hidden;
+  text-align: center;
+
+  .Button {
+    margin-top: $spacing-unit * 3.5;
+  }
+
+  &--companion {
+
+    .Link {
+      display: none;
+    }
+
+    .HeroHeader-appLinks {
+      display: none;
+    }
+
+    .JoinEmil-img {
+      position: relative;
+      width: 264px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: $spacing-unit * -4.5;
+
+        width: 330px;
+
+        background: url('../images/join-emil/overview-screenshot-bg.png') center 65% / 330px auto no-repeat;
+      }
+    }
+  }
+
+  @include media(medium) {
+    margin-top: $spacing-unit * 15;
+
+    &--companion {
+
+      .JoinEmil-img {
+        width: 330px;
+
+        &:before {
+          width: 400px;
+
+          background-size: 400px auto;
+        }
+      }
+    }
+  }
+
+  @include media(large) {
+    margin-top: $spacing-unit * 20;
+    margin-bottom: $spacing-unit * 15;
+
+    .ContentHeader-title,
+    .ContentHeader-subTitle,
+    .ContentHeader-description {
+      max-width: none;
+    }
+
+    .ContentHeader {
+      display: inline-block;
+      vertical-align: middle;
+
+      width: calc(100% - 364px);
+      margin-bottom: $spacing-unit * 2;
+
+      padding: $spacing-unit * 3 0 $spacing-unit * 10 $spacing-unit * 5;
+
+      text-align: left;
+
+      background: transparent;
+
+      .ContentHeader-wrapper {
+        display: none;
+      }
+    }
+
+    .JoinEmil-img {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+
+    &--companion {
+      .ContentHeader {
+        width: calc(100% - 300px);
+        margin-bottom: $spacing-unit * 2;
+
+        padding: $spacing-unit * 3 $spacing-unit * 10 $spacing-unit * 3 0;
+
+        .Link {
+          display: inline-block;
+        }
+
+        .HeroHeader-appLinks {
+          display: block;
+          margin: $spacing-unit * 1 0 0 0;
+        }
+      }
+
+      .JoinEmil-img {
+        width: 300px;
+
+        &:before {
+          width: 400px;
+
+          background-size: 400px auto;
+        }
+      }
+    }
+
+    &:not(.JoinEmil--companion) {
+
+      .Button {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+
+  @include media(wide) {
+    margin-top: $spacing-unit * 20;
+    margin-bottom: $spacing-unit * 20;
+
+    .ContentHeader {
+      width: calc(100% - 534px);
+    }
+
+    &--companion {
+
+      .ContentHeader {
+        width: calc(100% - 440px);
+      }
+
+      .JoinEmil-img {
+        width: 440px;
+
+        &:before {
+          width: 638px;
+          left: $spacing-unit * -16;
+
+          background-size: 638px auto;
+        }
+      }
+    }
+  }
+}
+
+.JoinEmil-container {
+
+  @include media(large-max) {
+    display: flex;
+    flex-direction: column;
+
+    .JoinEmil-img {
+      order: 1;
+    }
+  }
+
+  @include media(large) {
+    margin: 0 auto;
+    max-width: 880px;
+  }
+
+  @include media(wide) {
+    max-width: 1200px;
+  }
+}
+
+.JoinEmil-img {
+  display: block;
+  width: 320px;
+
+  margin: 0 auto;
+
+  > img {
+    width: 100%;
+  }
+
+  .JoinEmil:not(.JoinEmil--companion) & {
+    transform: translateX(9.75%);
+  }
+
+  @include media(medium) {
+    width: 364px;
+  }
+
+  @include media(large) {
+
+    .JoinEmil:not(.JoinEmil--companion) & {
+      transform: none;
+    }
+  }
+
+  @include media(wide) {
+    width: 534px;
+  }
+}

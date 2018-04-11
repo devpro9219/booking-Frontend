@@ -1,0 +1,11 @@
+%u-container, .u-container {
+  max-width: $max-width-container;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}

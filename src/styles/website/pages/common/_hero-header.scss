@@ -1,0 +1,308 @@
+.HeroHeader {
+  position: relative;
+  min-height: 400px;
+  max-height: 580px;
+  height: 100vh;
+  padding: $MainHeader-height $container-padding - $spacing-unit * 2 $spacing-unit * 1.5;
+  background: url('../images/hero-header/homepage-bg-mobile.jpg') center center / cover no-repeat $color-brand-alfa;
+  color: $color-white;
+
+  @include media(medium) {
+    height: 100vh;
+    min-height: 500px;
+    padding: $MainHeader-height-medium $container-padding-medium $spacing-unit * 1.5;
+  }
+
+  @include media(large) {
+    min-height: 600px;
+    padding: $MainHeader-height-large $container-padding-large $spacing-unit * 6.25;
+  }
+
+  &--home { .HeroHeader-content {
+    text-align: center; }
+    .HeroHeader-description {width: 50%; margin:auto; @include media(small-max) {width: 80%;}}
+    .Button--inlineBlock {margin-top: 30px;}
+
+    @include media(small-max) {
+      min-height: 580px;
+      padding: 160px 35px 100px;
+
+      .ScrollButton {bottom:-90px;}
+    }
+
+    @include media(medium) {
+      background-image: url('../images/hero-header/homepage-bg-large.jpg');
+      min-height: 750px;
+    }
+    @include media(large) {
+      min-height: 750px;
+      padding: $MainHeader-height-large $container-padding-large $spacing-unit * 6.25;
+    }
+  }
+
+  &--app {
+    background-image: url('../images/hero-header/app-bg-mobile.jpg');
+    height:560px;
+    .ScrollButton {
+      display: none;}
+    .HeroHeader-content {
+      text-align: center;
+      .Button--inlineBlock {margin-top: $spacing-unit * 3}
+    }
+    .HeroHeader-description {margin:auto; margin-top: 10px;}
+
+    @include media(medium) {
+      background-image: url('../images/hero-header/app-bg-large.jpg');
+    }
+
+    @include media(wide) {
+      background-image: url('../images/hero-header/app-bg-max.jpg');
+    }
+  }
+
+  &--insurance {
+    background-image: url('../images/hero-header/insurance-bg-mobile.jpg');
+    height:580px;
+    .ScrollButton {
+      display: none;}
+    .HeroHeader-content {text-align: center; }
+    .GetAQuote {padding-top: 100px;}
+
+    @include media(medium) {
+      background-image: url('../images/hero-header/insurance-bg-large.jpg');
+    }
+
+    @include media(wide) {
+      background-image: url('../images/hero-header/insurance-bg-max.jpg');
+      background-position: center 30%;
+    }
+  }
+
+  &--claim {
+    background-image: url('../images/hero-header/claim-bg-mobile.jpg');
+    .HeroHeader-content {text-align: center; }
+
+    @include media(medium) {
+      background-image: url('../images/hero-header/claim-bg-large.jpg');
+    }
+
+    @include media(wide) {
+      background-image: url('../images/hero-header/claim-bg-max.jpg');
+    }
+  }
+  .HeroHeader-title {
+    margin-bottom: 24px;
+      }
+  &--faq {
+    background-image: url('../images/hero-header/faq-bg-mobile.jpg');
+    .HeroHeader-content {  text-align: center; }
+
+    @include media(medium) {
+      background-image: url('../images/hero-header/faq-bg-large.jpg');
+    }
+
+    @include media(wide) {
+      background-image: url('../images/hero-header/faq-bg-max.jpg');;
+    }
+  }
+}
+
+.HeroHeader-container {
+  position: relative;
+  z-index: $positive-z;
+
+  height: 100%;
+
+  @extend %u-container;
+}
+
+.HeroHeader-videoBg {
+  display: none;
+
+  @include media(large) {
+    position: absolute;
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+    z-index: $neutral-z;
+
+    display: block;
+
+    height: 100%;
+
+    > div {
+      height: 100%;
+    }
+  }
+}
+
+.HeroHeader-video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.HeroHeader-content {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: left;
+  @include media(small-max) {
+    top: 45%;
+    text-align: center;
+  }
+}
+
+.HeroHeader-description
+{ width:50%;
+  font-size:$fs-big ;
+  @include media(medium) {
+    font-size:$fs-medium ; width:70%; }
+  @include media(small-max) {
+    width:100%;
+    font-size:$fs-regular ;}
+
+}
+
+.HeroHeader-title {
+  text-shadow: 0 0 2px rgba($color-realBlack, 0.5);
+  font-size: $fs-huge;
+  font-weight: $fw-medium;
+  line-height: 1.2;
+  @include media(small-max) {
+    font-size: $fs-biggish - 1;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.HeroHeader-subTitle {
+  margin:auto;
+  text-shadow: 0 0 2px rgba($color-realBlack, 0.5);
+  font-size: $fs-regular;
+  font-weight: $fw-regular;
+  width:60%;
+  padding-bottom:$spacing-unit * 4;
+
+  @include media(large) {
+    margin:auto;
+    font-size: $fs-big;
+    font-weight: $fw-regular;
+    width:60%;
+
+  }
+  @include media(small-max) {
+
+    width:75%;
+
+  }
+}
+
+.HeroHeader-appLinks {
+  display: block;
+
+  max-width: 180px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 0;
+
+  .Button {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 180px;
+    margin-bottom: $spacing-unit * 2;
+    padding-left: 3.5em;
+    padding-right: 1em;
+    text-transform: capitalize;
+    text-align: left;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0.5em;
+      right: calc(100% - 3.5em);
+    }
+
+    &--apple:before {
+      background: url('../images/apple-logo.svg') 45% 45% / 19px 24px no-repeat;
+    }
+
+    &--gplay:before {
+      background: url('../images/gplay-logo.svg') 50% 50% / 18px 20px no-repeat;
+    }
+  }
+  @include  media(small-max) {
+    .Button {
+    &--apple {
+
+      color: #fff !important;
+      background: transparent;
+      border: 1px solid #fff;
+  } } }
+  @include media(medium) {
+    max-width: 380px + $spacing-unit * 3;
+
+    .Button {
+      width: 190px;
+      padding-left: 2.5em;
+
+      &:not(:first-child) {
+        margin-left: $spacing-unit * 3;
+      }
+
+      &:before {
+        left: 0;
+      }
+
+      &--apple {
+        padding-left: 3.25em;
+        color: #fff !important;
+        background: transparent;
+        border: 1px solid #fff;
+
+        &:before {
+          right: calc(100% - 3.25em);
+          left: 0.5em;
+        }
+      }
+      &--apple:hover {background: rgba(255, 255, 255, 0.1);}
+
+      &--gplay {
+        padding-left: 3em;
+
+        &:before {
+          right: calc(100% - 3em);
+          left: 0.5em;
+        }
+      }
+    }
+  }
+
+  @include media(large) {
+    max-width: 400px + $spacing-unit * 3;
+
+    .Button {
+      width: 200px;
+
+      font-size: $fs-medium;
+
+      &--apple {
+
+        &:before {
+          background-size: 22px 27px;
+        }
+      }
+
+      &--gplay {
+
+        &:before {
+          background-size: 20px 23px;
+        }
+      }
+    }
+  }
+}

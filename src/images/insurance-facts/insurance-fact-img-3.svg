@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="306px" height="321px" viewBox="0 0 306 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M105.725936,20.5987735 C99.3809143,9.6143475 103.649737,4.87598788 115.240783,10.006571 L117.311229,10.923019 C120.343623,12.2652577 124.72799,11.4777087 127.100602,9.16727535 L134.083821,2.36706337 C136.457948,0.0551542257 140.133627,0.227195643 142.27816,2.73319452 L147.470869,8.80114419 C149.62235,11.315262 153.826596,12.2644239 156.857106,10.923019 L158.927551,10.006571 C170.527478,4.87205689 174.787743,9.61378907 168.442399,20.5987735 L159.561585,35.9731321 C157.903875,38.8429401 154.208094,42.4488707 151.294046,44.0418473 C151.294046,44.0418473 149.381747,45.0659132 148.995162,45.3265463 C147.866401,46.0875487 144.831521,47.569108 138.382559,47.4912022 C129.724913,47.3866149 123.072913,43.6304014 123.072913,43.6304014 C120.05489,42.2712163 116.267829,38.8487729 114.60675,35.9731321 L105.725936,20.5987735 Z" id="path-1"></path>
+        <filter x="-4.4%" y="-6.4%" width="108.7%" height="112.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.936277636   0 0 0 0 0.936277636   0 0 0 0 0.936277636  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-3" cx="63.5665138" cy="183.939314" rx="23.7683486" ry="13.3117226"></ellipse>
+        <ellipse id="path-4" cx="63.5665138" cy="173.955522" rx="23.7683486" ry="13.3117226"></ellipse>
+        <ellipse id="path-5" cx="63.5665138" cy="162.86242" rx="23.7683486" ry="13.3117226"></ellipse>
+        <ellipse id="path-6" cx="63.5665138" cy="152.878628" rx="23.7683486" ry="13.3117226"></ellipse>
+        <ellipse id="path-7" cx="63.5665138" cy="142.894836" rx="23.7683486" ry="13.3117226"></ellipse>
+        <ellipse id="path-8" cx="63.5665138" cy="134.020354" rx="23.7683486" ry="13.3117226"></ellipse>
+        <ellipse id="path-9" cx="111.103211" cy="188.93121" rx="19.3463303" ry="10.538447"></ellipse>
+        <ellipse id="path-10" cx="111.103211" cy="178.947418" rx="19.3463303" ry="10.538447"></ellipse>
+        <ellipse id="path-11" cx="19.3463303" cy="198.915002" rx="19.3463303" ry="10.538447"></ellipse>
+    </defs>
+    <g id="Insurance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Insurance_Teilkasko" transform="translate(-380.000000, -2425.000000)">
+            <g id="Group-19" transform="translate(381.000000, 2426.000000)">
+                <g id="Group-11" transform="translate(15.000000, 105.000000)">
+                    <path d="M134.055096,195.00967 C135.524577,195.024693 137.036809,195.032416 138.591794,195.032416 C195.150284,195.032416 241,190.248642 241,184.347557 C241,181.450741 224.56234,176.657374 206.683894,174.757747 C203.045044,174.37111 197.55854,172.955075 193.926765,172.848578 C190.29499,172.74208 190.055672,176.263309 185.54386,176.868155 C176.759435,178.045782 153.74251,184.814544 138.591794,184.814544 C137.062952,184.814544 135.575437,184.82201 134.129248,184.836539 C133.884111,185.987965 133.549721,187.18683 133.956754,187.581043 C135.402845,188.98159 133.631576,189.220983 133.956754,190.758472 C134.256189,192.174248 134.283624,193.598316 134.055096,195.00967 Z" id="Combined-Shape" fill="#EFEFEF" opacity="0.7"></path>
+                    <path d="M216.678899,166.190351 C216.678899,171.261483 211.55595,174.210833 206.56495,173.746058 L191.960369,172.607233 C191.408158,172.564173 190.564797,172.727309 190.065586,172.969562 C190.065586,172.969562 168.868914,183.939314 143.148371,183.939314 C140.257941,183.939314 139.938322,183.762371 137.082569,183.448255" id="Rectangle-25-Copy-2" stroke="#EFEFEF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M138.575891,185.469104 C133.645498,185.469104 138.193361,185.471014 138.193361,185.471014 C134.948211,185.984892 134.981855,186.687358 138.297769,186.96687 C138.297769,186.96687 139.241754,187.267245 145.876079,187.267245 C172.993241,187.267245 191.482216,182.072615 191.482216,182.072615 C192.92565,182.072615 196.412609,182.938386 207.505994,182.938386 C218.599379,182.938386 226.62844,180.382133 226.62844,177.677159 C226.62844,175.764839 221.55317,174.138447 215.780476,172.918554 C213.081401,172.348182 213.262105,175.320676 211.425123,175.879017 C209.58814,176.437359 203.954,175.92115 203.189992,175.879017 C188.774275,175.084038 200.703464,174.502586 195.180011,174.28067 C190.663858,174.099224 184.31619,177.509518 177.217657,180.07468 C170.119125,182.639842 157.088604,186.401473 149.978379,186.401473" id="Oval-10-Copy-45" fill="#E1DFDF"></path>
+                    <path d="M159.436562,44.1662271 C167.454062,48.1981193 182.749302,62.0199108 188.924749,69.5106174 C201.687243,84.9912945 209.239679,104.791785 210.680808,121.803226 L213.173488,153.807548 L216.763856,163.825101 C220.126545,173.207402 214.912014,180.055123 205.049972,179.113526 L191.385241,177.808861 C191.385241,177.808861 170.189918,189.485865 144.662799,189.485865 C141.794105,189.485865 138.924391,189.305814 136.090114,188.986179 M64.1192661,119.1521 C69.2242637,99.8012539 75.4647801,85.9634483 86.9510248,71.7728277 C91.370439,66.3128855 110.306262,51.3919718 118.476232,46.8250246" id="Rectangle-25" stroke="#1A2020" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Rectangle-26" stroke-linecap="round" stroke-linejoin="round">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#1A2020" stroke-width="1" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M159.192661,96.3038071 L152.296688,96.3038071 C139.620289,96.3038071 129.344037,106.733564 129.344037,119.599322 C129.344037,132.465079 139.620289,142.894836 152.296688,142.894836 L159.192661,142.894836" id="Oval-5-Copy" stroke="#06C3C3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <ellipse id="Oval-10-Copy-36" fill="#1A2020" cx="111.103211" cy="194.477761" rx="19.3463303" ry="10.538447"></ellipse>
+                    <ellipse id="Oval-10-Copy-44" fill="#1A2020" cx="19.3463303" cy="204.461553" rx="19.3463303" ry="10.538447"></ellipse>
+                    <ellipse id="Oval-10-Copy-43" fill="#1A2020" cx="63.5665138" cy="188.376555" rx="23.7683486" ry="13.3117226"></ellipse>
+                    <ellipse id="Oval-10-Copy-36" fill="#E1DFDF" cx="111.103211" cy="194.477761" rx="19.3463303" ry="10.538447"></ellipse>
+                    <ellipse id="Oval-10-Copy-44" fill="#E1DFDF" cx="19.3463303" cy="204.461553" rx="19.3463303" ry="10.538447"></ellipse>
+                    <ellipse id="Oval-10-Copy-43" fill="#E1DFDF" cx="63.5665138" cy="188.376555" rx="23.7683486" ry="13.3117226"></ellipse>
+                    <g id="Oval-10-Copy-31">
+                        <use fill="#FAD214" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <ellipse stroke="#FFFFFF" stroke-width="2" cx="63.5665138" cy="183.939314" rx="22.7683486" ry="12.3117226"></ellipse>
+                    </g>
+                    <g id="Oval-10-Copy-32">
+                        <use fill="#FAD214" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <ellipse stroke="#FFFFFF" stroke-width="2" cx="63.5665138" cy="173.955522" rx="22.7683486" ry="12.3117226"></ellipse>
+                    </g>
+                    <g id="Oval-10-Copy-33">
+                        <use fill="#FAD214" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <ellipse stroke="#FFFFFF" stroke-width="2" cx="63.5665138" cy="162.86242" rx="22.7683486" ry="12.3117226"></ellipse>
+                    </g>
+                    <g id="Oval-10-Copy-34">
+                        <use fill="#FAD214" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <ellipse stroke="#FFFFFF" stroke-width="2" cx="63.5665138" cy="152.878628" rx="22.7683486" ry="12.3117226"></ellipse>
+                    </g>
+                    <g id="Oval-10-Copy-35">
+                        <use fill="#FAD214" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <ellipse stroke="#FFFFFF" stroke-width="2" cx="63.5665138" cy="142.894836" rx="22.7683486" ry="12.3117226"></ellipse>
+                    </g>
+                    <g id="Oval-10-Copy-36">
+                        <use fill="#FAD214" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        <ellipse stroke="#FFFFFF" stroke-width="2" cx="63.5665138" cy="134.020354" rx="22.7683486" ry="12.3117226"></ellipse>
+                    </g>
+                    <g id="Oval-10-Copy-36">
+                        <use fill="#FAD214" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        <ellipse stroke="#FFFFFF" stroke-width="2" cx="111.103211" cy="188.93121" rx="18.3463303" ry="9.53844703"></ellipse>
+                    </g>
+                    <g id="Oval-10-Copy-36">
+                        <use fill="#FAD214" fill-rule="evenodd" xlink:href="#path-10"></use>
+                        <ellipse stroke="#FFFFFF" stroke-width="2" cx="111.103211" cy="178.947418" rx="18.3463303" ry="9.53844703"></ellipse>
+                    </g>
+                    <g id="Oval-10-Copy-36">
+                        <use fill="#FAD214" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        <ellipse stroke="#FFFFFF" stroke-width="2" cx="19.3463303" cy="198.915002" rx="18.3463303" ry="9.53844703"></ellipse>
+                    </g>
+                    <path d="M120.5,114.052771 L154.636102,114.052771" id="Line" stroke="#06C3C3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M120.5,125.145873 L154.636102,125.145873" id="Line-Copy-2" stroke="#06C3C3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Group-18">
+                    <g id="Group-16">
+                        <g id="Group-14">
+                            <g id="Group-12">
+                                <ellipse id="Oval" stroke="#1A2020" cx="23.2825953" cy="22.5" rx="23.2825953" ry="22.5"></ellipse>
+                                <text id="01" font-family="DINCondensed-Bold, DIN Condensed" font-size="27" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="13.7137503" y="33.7836538">01</tspan>
+                                </text>
+                                <text id="Schritt" font-family="DINCondensed-Bold, DIN Condensed" font-size="7" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="16.1950953" y="11.3461538">Schritt</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group-14" transform="translate(64.304311, 0.000000)">
+                            <g id="Group-12">
+                                <ellipse id="Oval" stroke="#1A2020" cx="23.2825953" cy="22.5" rx="23.2825953" ry="22.5"></ellipse>
+                                <text id="02" font-family="DINCondensed-Bold, DIN Condensed" font-size="27" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="13.7137503" y="33.7836538">02</tspan>
+                                </text>
+                                <text id="Schritt" font-family="DINCondensed-Bold, DIN Condensed" font-size="7" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="16.1950953" y="11.3461538">Schritt</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group-14" transform="translate(128.608622, 0.000000)">
+                            <g id="Group-12">
+                                <ellipse id="Oval" stroke="#1A2020" cx="23.2825953" cy="22.5" rx="23.2825953" ry="22.5"></ellipse>
+                                <text id="03" font-family="DINCondensed-Bold, DIN Condensed" font-size="27" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="13.7137503" y="33.7836538">03</tspan>
+                                </text>
+                                <text id="Schritt" font-family="DINCondensed-Bold, DIN Condensed" font-size="7" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="16.1950953" y="11.3461538">Schritt</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group-14" transform="translate(192.912932, 0.000000)">
+                            <g id="Group-12">
+                                <ellipse id="Oval" stroke="#1A2020" cx="23.2825953" cy="22.5" rx="23.2825953" ry="22.5"></ellipse>
+                                <text id="04" font-family="DINCondensed-Bold, DIN Condensed" font-size="27" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="13.7137503" y="33.7836538">04</tspan>
+                                </text>
+                                <text id="Schritt" font-family="DINCondensed-Bold, DIN Condensed" font-size="7" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="16.1950953" y="11.3461538">Schritt</tspan>
+                                </text>
+                            </g>
+                            <g id="Group-12" transform="translate(64.304311, 0.000000)">
+                                <ellipse id="Oval" stroke="#1A2020" cx="23.2825953" cy="22.5" rx="23.2825953" ry="22.5"></ellipse>
+                                <text id="05" font-family="DINCondensed-Bold, DIN Condensed" font-size="27" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="13.7137503" y="33.7836538">05</tspan>
+                                </text>
+                                <text id="Schritt" font-family="DINCondensed-Bold, DIN Condensed" font-size="7" font-weight="bold" fill="#06C3C3">
+                                    <tspan x="16.1950953" y="11.3461538">Schritt</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group-15" transform="translate(47.673886, 18.658537)" stroke-linecap="round" stroke="#1A2020" stroke-linejoin="round">
+                            <polyline id="arrow" points="11.0869501 0 14.9816173 3.85555511 11.1154194 7.68292683"></polyline>
+                            <path d="M0.554347507,3.84146341 L14.0422045,3.84146341" id="Line-3"></path>
+                        </g>
+                        <g id="Group-15" transform="translate(111.978196, 18.658537)" stroke-linecap="round" stroke="#1A2020" stroke-linejoin="round">
+                            <polyline id="arrow" points="11.0869501 0 14.9816173 3.85555511 11.1154194 7.68292683"></polyline>
+                            <path d="M0.554347507,3.84146341 L14.0422045,3.84146341" id="Line-3"></path>
+                        </g>
+                        <g id="Group-15" transform="translate(176.282507, 18.658537)" stroke-linecap="round" stroke="#1A2020" stroke-linejoin="round">
+                            <polyline id="arrow" points="11.0869501 0 14.9816173 3.85555511 11.1154194 7.68292683"></polyline>
+                            <path d="M0.554347507,3.84146341 L14.0422045,3.84146341" id="Line-3"></path>
+                        </g>
+                        <g id="Group-15" transform="translate(240.586818, 18.658537)" stroke-linecap="round" stroke="#1A2020" stroke-linejoin="round">
+                            <polyline id="arrow" points="11.0869501 0 14.9816173 3.85555511 11.1154194 7.68292683"></polyline>
+                            <path d="M0.554347507,3.84146341 L14.0422045,3.84146341" id="Line-3"></path>
+                        </g>
+                    </g>
+                </g>
+                <polyline id="arrow" stroke="#FAD214" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(152.500000, 73.000000) rotate(90.000000) translate(-152.500000, -73.000000) " points="146 60 159 73.0476881 146.095028 86"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

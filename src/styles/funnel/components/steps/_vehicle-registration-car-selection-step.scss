@@ -1,0 +1,73 @@
+.vehicle-registration-car-selection-step {
+    &.container {
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        font-weight: $fw-light;
+        color: $black;
+        margin-bottom: 10px;
+    }
+
+    &__inputs {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    &__input {
+        width: 215px;
+        display: inline-block;
+        margin: 0 30px;
+        text-align: left;
+        input {
+            font-size: 20px;
+            border: none;
+            background: none;
+            border-bottom: 1px solid #B3B3B3;
+            width: 100%;
+            outline: none;
+            color: $black;
+
+            &::placeholder {
+                color: rgba(76, 76, 76, 0.2);
+            }
+        }
+
+        &.is-success {
+            input {
+                border-color: $blue;
+            }
+        }
+
+        &.is-error {
+            input {
+                border-color: $color-flushMahogany;
+            }
+
+            .vehicle-registration-car-selection-step__label{
+                color: $color-flushMahogany;
+            }
+        }
+    }
+
+    &__label {
+        font-size: 12px;
+        font-weight: $fw-light;
+        color: $black;
+    }
+
+    &__form-sample {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    &__errors {
+        p {
+            color: $color-flushMahogany;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 60px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+$Helvetica: "Helvetica Neue";
+
+html, body {
+	font-family: $Helvetica;
+	line-height: 1.4;
+	@extend %font-normal;
+}
+
+%font-normal {
+	font-weight: 400;
+}
+
+%font-light {
+	font-weight: 300;
+}
+
+%font-semibold {
+	font-weight: 600;
+}

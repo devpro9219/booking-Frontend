@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="197px" height="201px" viewBox="0 0 197 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_flexible</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="96.8517835" cy="97.8860072" rx="73.5365661" ry="73.4958973"></ellipse>
+        <filter x="-2.0%" y="-2.0%" width="104.1%" height="104.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.936277636   0 0 0 0 0.936277636   0 0 0 0 0.936277636  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Insurance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Insurance_Teilkasko" transform="translate(-1110.000000, -5300.000000)">
+            <g id="icon_flexible" transform="translate(1089.000000, 5289.000000)">
+                <g id="Group" transform="translate(22.000000, 13.000000)">
+                    <g id="Group-39" transform="translate(0.000000, 2.000000)">
+                        <g id="Group-41">
+                            <g id="Oval-2">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use stroke="#1A2020" stroke-width="1" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M88.2138964,34.3742087 C59.7769699,38.086189 36.9470814,60.6662757 33.2866843,89.2726842 M33.2866843,106.234566 C37.1543558,134.425563 60.1697475,157.452041 88.2138964,161.307874 M105.114577,161.307874 C133.36436,157.582069 156.209373,134.44004 160.041789,106.072084 M160.041789,89.2726842 C156.339928,60.6539557 133.597863,38.0183848 105.114577,34.3742087" id="Oval-5" stroke="#FAD214" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(96.664237, 97.841041) scale(-1, 1) translate(-96.664237, -97.841041) "></path>
+                            <g id="Group-35" transform="translate(65.000000, 55.142857)" stroke="#06C3C3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M32.2153459,0.203000506 L32.2153459,43.2500695" id="Line"></path>
+                                <path d="M0.251015091,32.2123595 L32.2153459,44.3538405" id="Line"></path>
+                            </g>
+                            <ellipse id="Oval-6" fill="#1A2020" cx="97.2153459" cy="34.3742087" rx="2.2044366" ry="2.207542"></ellipse>
+                            <ellipse id="Oval-6-Copy" fill="#1A2020" cx="97.2153459" cy="161.307874" rx="2.2044366" ry="2.207542"></ellipse>
+                            <ellipse id="Oval-6-Copy-2" fill="#1A2020" cx="34.3889026" cy="98.3929266" rx="2.2044366" ry="2.207542"></ellipse>
+                            <ellipse id="Oval-6-Copy-3" fill="#1A2020" cx="161.144007" cy="98.3929266" rx="2.2044366" ry="2.207542"></ellipse>
+                            <path d="M93.2609378,0.183659045 C41.7954172,0.183659045 0.0743693698,41.7484225 0.0743693698,93.0211565" id="Oval-3" stroke="#1A2020" stroke-width="1.5"></path>
+                            <path id="Oval-3-decoration-1" d="M93.2609378,0.183659045 L82.4609378,3.18365904 L82.4609378,-2.81634096 L93.2609378,0.183659045 Z" stroke="#1A2020" stroke-width="1.5"></path>
+                            <path d="M101.623835,193 C153.089356,193 194.810404,151.435237 194.810404,100.162503" id="Oval-3" stroke="#1A2020" stroke-width="1.5"></path>
+                            <path id="Oval-3-decoration-1" d="M101.623835,193 L112.423835,190 L112.423835,196 L101.623835,193 Z" stroke="#1A2020" stroke-width="1.5"></path>
+                        </g>
+                    </g>
+                    <polygon id="Path-5" fill="#1A2020" points="103 194.907813 114 192 114 198"></polygon>
+                    <polygon id="Path-6" fill="#1A2020" points="83 -4.4408921e-16 83 4 93 2.20973299"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+.header{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #B3B3B3;
+    position: relative;
+
+    &__logo {
+        cursor: pointer;
+        width: 56px;
+
+        @include media(medium) {
+            width: 85px;
+        }
+    }
+}

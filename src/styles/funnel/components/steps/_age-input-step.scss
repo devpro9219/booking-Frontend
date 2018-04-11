@@ -1,0 +1,63 @@
+.age-input-step {
+
+    &__container {
+        width: 370px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    &__inputs {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    &__input {
+        width: 80px;
+        display: inline-block;
+        margin: 0 10px;
+        text-align: left;
+        input {
+            font-size: 20px;
+            border: none;
+            background: none;
+            border-bottom: 1px solid #B3B3B3;
+            width: 100%;
+            outline: none;
+            color: $black;
+            text-align: center;
+
+            &::placeholder {
+                color: rgba(76, 76, 76, 0.2);
+            }
+        }
+
+        &.is-success {
+            input {
+                border-color: $blue;
+            }
+        }
+
+        &.is-error {
+            input {
+                border-color: $color-flushMahogany;
+            }
+        }
+    }
+
+    &__label {
+        font-size: 12px;
+        font-weight: $fw-light;
+        color: $black;
+    }
+
+    &__errors {
+        p {
+            color: $color-flushMahogany;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 45px;
+            text-align: center;
+        }
+    }
+
+}

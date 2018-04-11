@@ -1,0 +1,26 @@
+.insurance-selection-step {
+    &__logo {
+        display: block;
+        text-align: center;
+        margin-top: -50px;
+
+        @include media(small-max) {
+            margin-top: -30px;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__label {
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        color: #5944CE;
+    }
+    &__11-text{
+        font-size: 15px;
+        font-weight: $fw-light;
+        width: 64%;
+        margin-left: 20%;
+        margin-bottom: 3%;
+    }
+}

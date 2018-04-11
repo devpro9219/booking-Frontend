@@ -1,0 +1,157 @@
+.final-step {
+    &__container {
+        max-width: 690px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        color: #1A2020;
+    }
+
+
+    &__message {
+        font-size: 20px;
+        font-weight: $fw-light;
+        margin-top: 0px;
+    }
+
+    &__error-header {
+        font-weight: $fw-bold;
+        color: $color-Turquoise;
+        font-size: 20px;
+    }
+
+    &__error-header-text {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    &__icon {
+        width: 25%;
+        float: left;
+    }
+
+    &__icon-text {
+        width: 70%;
+        float: left;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    &__message-success {
+        font-size: 22px;
+        font-weight: $fw-bold;
+        text-align: left;
+        color: #1A2020;
+    }
+
+    &__message-success-sub {
+        font-weight: $fw-light;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    &__success-block {
+        display: inline-block;
+        float: left;
+        font-weight: $fw-medium;
+    }
+
+    &__success-label {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        float: left;
+        background-color: $color-Turquoise;
+        color: white;
+        margin-right: 15px;
+        padding:3px;
+    }
+
+    &__success-detail {
+        float: left;
+        text-align: left;
+        font-weight: $fw-light;
+        font-size: 18px;
+        margin-left: 45px;
+        margin-bottom: 25px;
+    }
+
+    &__success-detail-b {
+        float: left;
+        text-align: left;
+        font-weight: $fw-medium;
+        font-size: 18px;
+    }
+    &__success-detail-bottom {
+        float: left;
+        text-align: left;
+        font-weight: $fw-medium;
+        font-size: 18px;
+        width: 665px;
+        border-bottom: 1px solid #979797;
+        padding-bottom: 20px;
+    }
+    &__success-detail-bottom-car {
+        float: right;
+        margin-top: -30px;
+    }
+
+}
+
+.MainFooter-apps-success {
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 45px;
+    @include media(large) {
+        float: left;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .Button {
+        position: relative;
+
+        display: inline-block;
+        vertical-align: middle;
+
+        width: 200px;
+        margin-bottom: $spacing-unit * 2;
+        padding-left: 4em;
+        padding-right: 1em;
+        text-transform: capitalize;
+        font-size: 18px;
+        text-align: left;
+
+        font-weight: $fw-medium;
+        @include media(small-max) {width: 170px; font-size: 15px; }
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0.5em;
+            right: calc(100% - 3.5em);
+        }
+
+        &--apple {
+            background-color: #1A2020;
+            margin-right: 20px;
+            color: $white !important;
+            border:1px solid $white;
+            &:hover
+            {background: black;}
+        }
+
+        &--apple:before {
+            background: url('../images/apple-logo.svg') 45% 45% / 19px 24px no-repeat;
+        }
+
+        &--gplay:before {
+            background: url('../images/gplay-logo.svg') 50% 50% / 18px 20px no-repeat;
+        }
+    }
+}

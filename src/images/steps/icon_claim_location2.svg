@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="119px" viewBox="0 0 96 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_claim_location2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Claim" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Schadenservice" transform="translate(-508.000000, -1833.000000)">
+            <g id="icon_claim_location2" transform="translate(508.000000, 1833.000000)">
+                <ellipse id="Oval-4-Copy-4" fill="#B3B3B3" opacity="0.15" cx="48" cy="106.66845" rx="48" ry="11.6684502"></ellipse>
+                <ellipse id="Oval-4-Copy-4" fill="#B3B3B3" opacity="0.5" cx="47.2328163" cy="104.91845" rx="20.2328163" ry="4.91845017"></ellipse>
+                <path d="M45.7027926,95.9865469 C45.7027926,95.9865469 11.7272727,57.2637072 11.7272727,35.238292 C11.7272727,13.2128768 29.3636364,0.5 47,0.5 C64.6363636,0.5 82.2727273,13.8608815 82.2727273,35.238292 C82.2727273,56.6157025 48.2866909,95.9763107 48.2866909,95.9763107 C47.5827951,96.8150395 46.4192205,96.822404 45.7027926,95.9865469 Z M47,45.9269972 C54.4925344,45.9269972 60.5664336,39.9451268 60.5664336,32.5661157 C60.5664336,25.1871046 54.4925344,19.2052342 47,19.2052342 C39.5074656,19.2052342 33.4335664,25.1871046 33.4335664,32.5661157 C33.4335664,39.9451268 39.5074656,45.9269972 47,45.9269972 Z" id="Combined-Shape-Copy-4" fill="#FAD214"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,411 @@
+.wrp {
+	padding: 0 30px;
+	@include tablet {
+		padding: 0 50px;
+	}
+	@include laptop {
+		padding: 0 80px;
+	}
+	@include desktop {
+		padding: get-vw(0px 125px);
+	}
+}
+
+.heading-section {
+	@include bgr('Image_car3-new.jpg', bottom center);
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	position: relative;
+	@include tablet {
+		height: auto;
+	}
+}
+
+.logo-img {
+	display: inline-block;
+	margin-top: 30px;
+	img {
+		@include tablet {
+			width: 80px;
+			height: 35px;
+		}
+	}
+}
+
+.headings {
+	padding-top: 60px;
+	@include tablet  {
+		padding-top: 100px;
+		padding-bottom: 50px;
+	}
+	@include laptop {
+		padding-top: get-vw(200px);
+		padding-bottom: get-vw(150px);
+	}
+}
+
+.page-title {
+	margin: 0;
+	font-size: 30px;
+	color: $white;
+	@include tablet  {
+		font-size: 40px;
+	}
+	@include desktop {
+		font-size: get-vw(50px);
+	}
+}
+
+.page-subtitle {
+	font-size: 18px;
+	color: $white;
+	max-width:60%;
+	margin-bottom: 20px;
+	@extend %font-light;
+	@include tablet {
+		max-width:300px;;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	@include laptop {
+		max-width: get-vw(600px);
+	}
+	@include desktop {
+		font-size: get-vw(28px);
+	}
+}
+
+.logos-wrp {
+	margin-top: 30px;
+	@include laptop {
+		margin-top: 50px;
+	}
+	@include desktop {
+		margin-top: get-vw(70px)
+	}
+}
+
+.header-logo {
+	width: 80px;
+	&:first-of-type {
+		margin-right: 15px;
+	}
+
+	&:last-of-type {
+		position: relative;
+		top: -3px;
+	}
+	@include laptop {
+		width: 120px;
+		&:last-of-type {
+			position: relative;
+			top: -5px;
+		}
+	}
+	@include desktop {
+		width: auto;
+		&:first-of-type {
+			margin-right: 30px;
+		}
+		&:last-of-type {
+			position: relative;
+			top: -8px;
+		}
+	}
+
+
+
+
+}
+
+
+.tabs-btn-wrp{
+	@extend %clearfix;
+	padding-top: 50px;
+	border-bottom: 1px solid $purple;
+	display: none;
+	@include tablet {
+		display: block;
+	}
+	@include desktop {
+		padding-left: get-vw(200px);
+		padding-right: get-vw(200px);
+	}
+
+}
+
+.tab-content-wrp {
+	min-height: 600px;
+}
+
+.tab-item {
+	position: relative;
+	@extend %clearfix;
+
+
+	&.active {
+	
+		display: block;
+	}
+
+	@include tablet {
+		position: relative;
+		display: none;
+		&.active {
+			display: block;
+		}
+	}
+}
+
+.first-tab {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	@include tablet {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+	@include desktop {
+		padding-top: 190px;
+		padding-bottom: 190px;
+	}
+}
+
+.col-1-2 {
+	width: 100%;
+	@include tablet {
+		width: 50%;
+
+	}
+}
+
+.img-col {
+	width: 100%;
+	height: 400px;
+	@include smart {
+		height: 300px;
+	}
+	@include bgr('bg-phone.svg', center);
+	background-size: contain;
+
+	@include tablet {
+		@include bgr('bg-phone.svg', left center);
+		background-size: contain;
+		width: 60%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+	}
+	@include laptop {
+		@include bgr('bg-phone.svg', right center);
+		background-size: initial;
+		width: 55%;
+	}
+	@include desktop {
+		width: 47%;
+	}
+
+}
+
+.content-col {
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 2;
+	@include tablet {
+		float: right;
+		margin-bottom: 0;
+	}
+}
+
+
+
+.feature-title {
+	font-size: 30px;
+	color: $blue;
+	margin: 0;
+
+	@include laptop {
+		font-size: 36px;
+	}
+	@include desktop {
+		font-size: 40px;
+	}
+}
+
+.feature-subtitle {
+	color: $purple;
+	font-size: 18px;
+	@extend %font-light;
+	max-width: 550px;
+	@include laptop {
+		font-size: 20px;
+	}
+	@include desktop {
+		font-size: 25px;
+	}
+}
+
+.feature-list {
+	margin: 20px 0;
+	list-style: none;
+	padding: 0;
+	@include tablet {
+		margin: 30px 0 30px; 
+	}
+}
+
+.list-item {
+	@extend %font-normal;
+	font-size: 18px;
+	color: $purple;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	position: relative;
+	@include laptop {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	@include desktop {
+		padding-left: 40px;
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	&:before {
+		content: '';
+		width: 18px;
+		height: 18px;
+		position: absolute;
+		display: inline-block;
+		@include bgr('tick.png');
+		background-size: contain;
+		left: 0;
+		top: 2px;
+		@include laptop {
+			width: 20px;
+			height: 20px;
+		}
+		@include desktop {
+			top: 4px;
+			width: 25px;
+			height: 25px;
+		}
+	}
+
+}
+
+.link-more {
+	@extend %font-light;
+	font-size: 14px;
+	color: $purple;
+	
+	@include desktop {
+		font-size: 18px;
+	}
+
+	a {
+		text-decoration: none;
+		color: $purple;
+		@extend %font-semibold;
+		vertical-align: text-bottom;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+
+.second-tab {
+	text-align: center;
+	padding-bottom:70px;
+
+	@include tablet {
+		padding-top: 110px;
+		padding-bottom: 70px;
+		background-size: contain;
+		background-position: top;
+	}
+
+	.feature-subtitle {
+		margin: 20px auto;
+	}
+
+	.cta-btn {
+		margin: 50px auto 0;
+	}
+
+	@include desktop {
+		padding-left: get-vw(200px);
+		padding-right: get-vw(200px);
+	}
+}
+
+.steps-wrp {
+	margin-top: 70px;
+	@extend %clearfix;
+}
+
+.col-1-3 {
+	position: relative;
+	margin-bottom: 30px;
+
+	@include tablet {
+		width: 30%;
+		float: left;
+		margin-right: 5%;
+		margin-bottom: 0;
+	}
+
+	&:last-of-type {
+		margin: 0;
+		&:after {
+			display: none;
+		}
+	}
+
+	&:after {
+		content: '';
+		display: inline-block;
+		position: absolute;
+		width: 30px;
+		height: 25px;
+		@include bgr('icon_arrow.png');
+		background-size: contain;
+		top: calc(20% - 10px);
+		right: -15%;
+		@include laptop {
+			width: 50px;
+			height: 25px;
+		}
+
+	}
+}
+
+
+.step {
+	&-title {
+		font-size: 20px;
+		color: $purple;
+		margin: 10px auto;
+		@include laptop {
+			font-size: 22px;
+		}
+		@include desktop {
+			font-size: 25px;
+		}
+	}
+
+	&-subtitle {
+		font-size: 18px;
+		color: $purple;
+		margin: 0 auto;
+		max-width: 400px;
+		@extend %font-light;
+		margin-top: 0;
+		@include desktop {
+			font-size: 21px;
+		}
+	}
+
+
+}

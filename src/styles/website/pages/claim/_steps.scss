@@ -1,0 +1,150 @@
+.Steps {
+  margin: $spacing-unit * 5 auto;
+  padding: 0 $container-padding;
+
+  text-align: center;
+
+  @include media(small) {
+    margin: $spacing-unit * 6 auto;
+  }
+
+  @include media(medium) {
+    max-width: 820px;
+
+    margin: $spacing-unit * 10 auto;
+    padding: 0 $container-padding-medium;
+
+    background: url('../images/steps/path_all.svg') 45% 120px / 600px auto no-repeat;
+  }
+
+  // @include media(large) {
+  //   max-width: 1100px;
+
+  //   margin: $spacing-unit * 24 auto;
+  //   padding: 0 $container-padding-large;
+
+  //   background: url('../images/steps/path.svg') 55% 140px / 850px auto no-repeat;
+  // }
+
+  @include media(wide) {
+    margin: $spacing-unit * 10 auto;
+    padding: 0;
+    padding-left: 100px;
+    max-width: 1250px;
+
+    // background: url('../images/steps/path_all.svg') 60% 120px / 816px auto no-repeat;
+  }
+}
+
+.Step {
+  margin: $spacing-unit * 7.5 0 $spacing-unit * 10;
+
+  @include media(small) {
+    margin: $spacing-unit * 18.75 0 $spacing-unit * 15;
+  }
+
+  @include media(medium) {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: $spacing-unit * 10;
+
+    text-align: left;
+
+    &:nth-child(2n+1) {
+      margin-right: 50%;
+    }
+
+    &:nth-child(2n+2) {
+      margin-left: 50%;
+    }
+  }
+
+  @include media(large) {
+    &:not(:first-child) {
+      margin-top: -50px;
+    }
+  }
+}
+
+.Step-img {
+  margin: 0 auto $container-padding;
+
+  &--large {
+    display: none;
+  }
+
+  @include media(medium) {
+    margin: 0 0 $spacing-unit * -5 $spacing-unit * -15;
+  }
+
+  @include media(large) {
+    // display: none;
+    // margin: 0 0 $spacing-unit * -10 $spacing-unit * -20;
+
+    &--large {
+      // display: block;
+    }
+
+    .Step.is-visible & {
+      // transform: scale(0.8) !important;
+    }
+  }
+
+  @include media(wide) {
+    max-width: none;
+  }
+
+  transform: scale(0.75);
+  opacity: 0;
+
+  transition: all 0.25s cubic-bezier(0, 1, .5, 1.25);
+
+  .Step.is-visible & {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.Step-title {
+  margin: 0 auto $spacing-unit * 0.5;
+
+  color: #1A2020;
+  font-size: 30px;
+  font-weight: $fw-medium;
+
+  transform: scale(0.9);
+  transform-origin: top center;
+  opacity: 0;
+
+  transition: all 0.5s ease 0.1s;
+
+  .Step.is-visible & {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.Step-desc {
+  max-width: 250px;
+  margin: 0 auto;
+
+  color: #1A2020;
+  font-size: 25px;
+  font-weight: $fw-light;
+
+  transform: scale(0.9);
+  transform-origin: top center;
+  opacity: 0;
+
+  transition: all 0.5s ease 0.2s;
+
+  @include media(medium) {
+    max-width: 360px;
+    margin: 0;
+  }
+
+  .Step.is-visible & {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

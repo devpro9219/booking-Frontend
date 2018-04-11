@@ -1,0 +1,53 @@
+.banking-information-step {
+
+  &__container {
+    width: 400px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  &__inputs {
+    margin-bottom: 45px;
+
+    @include media(medium) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__input {
+    margin-bottom: 20px;
+
+    &.is-error {
+      input {
+        border-color: $color-flushMahogany;
+      }
+    }
+
+    input {
+      font-size: 20px;
+      border: none;
+      background: none;
+      border-bottom: 1px solid #B3B3B3;
+      width: 100%;
+      outline: none;
+      color: $black;
+
+      &::placeholder {
+        color: rgba(76, 76, 76, 0.2);
+      }
+    }
+  }
+
+  &__label {
+    font-weight: $fw-light;
+    font-size: 12px;
+    color: $black;
+  }
+
+  &__disclaimer {
+    color: $color-lightBlack;
+    font-size: 15px;
+    font-weight: $fw-light;
+    margin: 40px 0;
+  }
+}

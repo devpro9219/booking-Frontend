@@ -1,0 +1,80 @@
+.InputField {
+  margin-bottom: $spacing-unit * 3;
+
+  &--alfa {
+    color: $color-brand-alfa;
+
+    .InputField-input {
+      border-color: rgba($color-brand-alfa, 0.15);
+    }
+  }
+
+  &--textArea {
+
+  }
+
+  @include media(medium) {
+
+    &--alfa {
+
+      .InputField-input {
+        border-bottom: 1px solid rgba($color-brand-alfa, 0.5);
+      }
+    }
+  }
+}
+
+.InputField-label {
+  display: block;
+
+  font-size: $fs-regular;
+  font-weight: $fw-light;
+  line-height: 1;
+
+  // transform: translateY($spacing-unit * 3.25) scale(1);
+  // transform-origin: left;
+  // transition: all 0.2s ease;
+
+  .InputField.is-used & {
+    // transform: translateY($spacing-unit * 0) scale(0.75);
+
+    // opacity: 0.5;
+  }
+
+  .InputField--textArea & {
+    // transform: translateY(#{$spacing-unit * 3 + 1} ) scale(1);
+  }
+}
+
+.InputField-input {
+  display: block;
+  width: 100%;
+
+  font-size: $fs-regular;
+  font-weight: $fw-light;
+
+  appearance: none;
+  -webkit-appearance: none;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  border-bottom: 1px solid rgba($color-white, 0.15);
+  background-color: rgba($color-white, 0.0);
+
+
+  transition: background-color 0.1s ease;
+
+  &::-moz-selection { color: $color-brand-alfa; background-color: rgba($color-white, 0.1); }
+  &::selection { color: $color-brand-alfa; background-color: rgba($color-white, 0.1); }
+
+  &--textArea {
+    resize: none;
+    padding-top: 2px;
+    padding-bottom: 3px;
+  }
+
+  @include media(medium) {
+    border-bottom: 1px solid rgba($color-white, 0.3);
+  }
+}

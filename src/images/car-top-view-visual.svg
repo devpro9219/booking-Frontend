@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="404px" height="483px" viewBox="0 0 404 483" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="360.819313" y="353.841693" width="6.61020882" height="6.61607143"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="6.61020882" height="6.61607143" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="220.195842" y="307.608809" width="6.61020882" height="6.61607143"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="6.61020882" height="6.61607143" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LANDING-Copy" transform="translate(-433.000000, -2230.000000)">
+            <g id="Group-22" transform="translate(431.000000, 1866.000000)">
+                <g id="Group-17" transform="translate(0.000000, 106.000000)">
+                    <g id="Group-4-Copy-2">
+                        <g id="Group-27">
+                            <g id="Group-17-Copy">
+                                <g id="Group-25" transform="translate(0.000000, 258.000000)">
+                                    <use id="Rectangle-240-Copy-8" stroke="#765DFF" mask="url(#mask-2)" stroke-width="3.78" transform="translate(364.124417, 357.149728) rotate(6.000000) translate(-364.124417, -357.149728) " xlink:href="#path-1"></use>
+                                    <polygon id="Rectangle-240-Copy-6" fill="#F478A2" transform="translate(273.156650, 353.297060) rotate(114.000000) translate(-273.156650, -353.297060) " points="264.158418 357.143684 271.191814 348.497569 282.154881 358.096551"></polygon>
+                                    <polygon id="Rectangle-240-Copy-11" fill="#F478A2" transform="translate(394.963913, 151.708271) rotate(-300.000000) translate(-394.963913, -151.708271) " points="389.557651 154.019376 393.783412 148.82467 400.370176 154.591872"></polygon>
+                                    <polygon id="Rectangle-240-Copy-7" fill="#FAD214" transform="translate(67.229481, 332.432197) rotate(114.000000) translate(-67.229481, -332.432197) " points="62.1561694 325.956394 72.3027936 327.910622 67.9174854 338.907999"></polygon>
+                                    <polygon id="Rectangle-240-Copy-10" fill="#FAD214" transform="translate(368.631837, 7.662201) rotate(-300.000000) translate(-368.631837, -7.662201) " points="363.558525 1.18639853 373.705149 3.14062586 369.319841 14.1380028"></polygon>
+                                    <polygon id="Rectangle-240-Copy-12" fill="#72FFEB" transform="translate(6.348894, 227.429312) rotate(-300.000000) translate(-6.348894, -227.429312) " points="2.83294664 222.941399 9.86484142 224.295734 6.8257 231.917224"></polygon>
+                                    <polygon id="Rectangle-240-Copy-9" fill="#FAD214" transform="translate(293.157494, 438.289339) rotate(114.000000) translate(-293.157494, -438.289339) " points="288.084182 431.813537 298.230806 433.767765 293.845498 444.765142"></polygon>
+                                    <rect id="Rectangle-240-Copy-3" fill="#0FE1C3" transform="translate(225.295506, 477.877974) rotate(-50.000000) translate(-225.295506, -477.877974) " x="222.225113" y="474.804858" width="6.14078581" height="6.14623209"></rect>
+                                    <rect id="Rectangle-240-Copy-4" fill="#F478A2" transform="translate(41.861693, 62.955780) rotate(-50.000000) translate(-41.861693, -62.955780) " x="38.7912996" y="59.8826639" width="6.14078581" height="6.14623209"></rect>
+                                    <use id="Rectangle-240-Copy-5" stroke="#F478A2" mask="url(#mask-4)" stroke-width="3.78" transform="translate(223.500946, 310.916844) rotate(-50.000000) translate(-223.500946, -310.916844) " xlink:href="#path-3"></use>
+                                    <ellipse id="Oval-28" stroke="#FAD214" stroke-width="1.89" stroke-linecap="round" stroke-linejoin="round" cx="184.613689" cy="392.737883" rx="10.8596288" ry="10.8692602"></ellipse>
+                                    <ellipse id="Oval-28-Copy" stroke="#0FE1C3" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" cx="117.567285" cy="442.830995" rx="4.24941995" ry="4.25318878"></ellipse>
+                                    <ellipse id="Oval-28-Copy-2" stroke="#0FE1C3" stroke-width="1.89" stroke-linecap="round" stroke-linejoin="round" transform="translate(400.292116, 286.547209) rotate(-300.000000) translate(-400.292116, -286.547209) " cx="400.292116" cy="286.547209" rx="4.24941995" ry="4.25318878"></ellipse>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

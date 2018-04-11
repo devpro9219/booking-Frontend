@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="17px" viewBox="0 0 5 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>exclamation_point</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="1.8265555e-16 3.9773332 1.8265555e-16 0.0417851755 4.12171932 0.0417851755 4.12171932 3.9773332"></polygon>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GET-A-QUOTE-16c" transform="translate(-899.000000, -471.000000)">
+            <g id="exclamation_point" transform="translate(899.000000, 471.000000)">
+                <g id="Group-4" transform="translate(0.831013, 0.603041)">
+                    <path d="M3.62131927,9.09094485 C3.55289457,10.0540018 3.08528274,10.6911508 2.04161237,10.6807098 C0.994843531,10.6705174 0.562605977,10.0154696 0.497021545,9.05589295 C0.353200567,6.95178494 0.16600091,4.85066007 0.0278604731,2.74655205 C-0.0875577983,0.988239672 0.62664117,0.0286630026 2.01269325,0.000571768482 C3.44754635,-0.0282652506 4.19608677,0.970092238 4.11965767,2.37614551 C3.93271622,4.88446898 3.77056259,6.98733402 3.62131927,9.09094485 Z" id="Fill-1" fill="#EA0646"></path>
+                    <g id="Group-5" transform="translate(0.000000, 12.065508)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <path d="M4.12154258,2.02445818 C4.10682481,3.10236606 3.15739979,3.99109316 2.03497647,3.97717184 C0.909971079,3.96374771 -0.0133750928,3.05563021 5.16412848e-05,1.97623075 C0.0134783753,0.888876254 0.939664818,0.0297319611 2.08506851,0.0419131157 C3.2299558,0.0543428653 4.13626035,0.936606492 4.12154258,2.02445818" id="Fill-3" fill="#EA0646" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

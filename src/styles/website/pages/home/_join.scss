@@ -1,0 +1,17 @@
+.Join {
+    background-color: $color-darkGray;
+    overflow: hidden;
+    padding: 6.25 * $spacing-unit 0 7.5 * $spacing-unit;
+    position: relative;
+    text-align: center;
+    z-index: $neutral-z;
+
+    @include media(large) {
+        padding: 26 * $spacing-unit 0 21.25 * $spacing-unit;
+    }
+}
+
+.Join-title {
+    margin-bottom: 3.5 * $spacing-unit;
+    font-weight: $fw-medium;
+}

@@ -1,0 +1,228 @@
+.TripleBanner {
+  margin: $spacing-unit * 15 auto;
+  padding: 0 $container-padding;
+
+  text-align: center;
+  font-size: 0;
+
+  @include media(small) {
+    margin: $spacing-unit * 15 auto;
+  }
+
+  @include media(medium) {
+    margin: $spacing-unit * 20 auto;
+    padding: 0 $container-padding-medium;
+  }
+
+  @include media(large) {
+    margin: $spacing-unit * 24 auto;
+    padding: 0 $container-padding-large;
+  }
+}
+
+.TripleBanner-icon {
+  display: block;
+  margin: 0 auto $spacing-unit * 2.5;
+  width: $spacing-unit * 7.5;
+
+  font-size: 0;
+
+  // transform: scale(1);
+  // opacity: 1;
+
+  // transition: all 0.5s cubic-bezier(0, 1, .5, 1.25);
+
+  // .TripleBanner.is-visible & {
+  //   transform: scale(1);
+  //   opacity: 1;
+  // }
+
+  > img {
+    width: 100%;
+  }
+
+  @include media(medium) {
+    margin: 0 auto $spacing-unit * 4;
+    width: $spacing-unit * 10;
+  }
+
+  @include media(large) {
+    margin: 0 auto $spacing-unit * 5.5;
+    width: $spacing-unit * 12.5;
+  }
+}
+
+.TripleBanner-title {
+  margin: 0 auto $spacing-unit * 4.5;
+
+  font-size: $fs-biggish;
+  font-weight: $fw-light;
+  color: $color-brand-alfa;
+
+  transform: scale(0.5);
+  opacity: 0;
+
+  transition: all 0.4s cubic-bezier(0, 1, .5, 1.25) 0.1s;
+
+  .TripleBanner.is-visible & {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  @include media(small) {
+    margin: 0 auto $spacing-unit * 5.5;
+
+    font-size: $fs-bigger;
+  }
+
+  @include media(medium) {
+    margin: 0 auto $spacing-unit * 7;
+
+    font-size: $fs-huge;
+  }
+
+  @include media(large) {
+    margin: 0 auto $spacing-unit * 9;
+
+    font-size: 45px;
+  }
+}
+
+.TripleBanner-banners {
+  max-width: 320px;
+  margin: 0 auto;
+
+  > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+
+    text-align: center;
+    font-size: 0;
+
+    opacity: 0;
+    transform: translateY(#{$spacing-unit * 2});
+
+    transition: all 0.5s ease;
+
+    &:nth-child(1) {
+      padding-right: $spacing-unit * 1;
+
+      transition-delay: 0.4s;
+    }
+
+    &:nth-child(2) {
+      padding-left: $spacing-unit * 0.5;
+      padding-right: $spacing-unit * 0.5;
+
+      transition-delay: 0.7s;
+    }
+
+    &:nth-child(3) {
+      padding-left: $spacing-unit * 1;
+
+      transition-delay: 1s;
+    }
+
+    .TripleBanner.is-visible & {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  @include media(small) {
+    max-width: 500px;
+
+    > li {
+
+      &:nth-child(1) {
+        padding-right: $spacing-unit * 2;
+      }
+
+      &:nth-child(2) {
+        padding-left: $spacing-unit * 1;
+        padding-right: $spacing-unit * 1;
+      }
+
+      &:nth-child(3) {
+        padding-left: $spacing-unit * 2;
+      }
+    }
+  }
+
+  @include media(medium) {
+    max-width: 740px;
+  }
+
+  @include media(large) {
+    max-width: 1020px;
+  }
+
+  @include media(wide) {
+    max-width: $max-width-container;
+  }
+}
+
+.TripleBanner-img {
+  display: block;
+  max-height: $spacing-unit * 8;
+  margin: 0 auto $spacing-unit * 2;
+
+  @include media(medium) {
+    max-height: $spacing-unit * 14;
+    margin: 0 auto $spacing-unit * 3;
+  }
+
+  @include media(large) {
+    max-height: $spacing-unit * 15;
+    margin: 0 auto $spacing-unit * 3.75;
+  }
+}
+
+.TripleBanner-text {
+  display: block;
+  max-width: 70px;
+  margin: 0 auto;
+
+  font-size: $fs-normal;
+  font-weight: $fw-regular;
+
+  @include media(small) {
+    max-width: none;
+    margin: 0 0 $spacing-unit * 0.5;
+
+    font-size: $fs-normal;
+    font-weight: $fw-medium;
+  }
+
+  @include media(medium) {
+    margin: 0 0 $spacing-unit * 0.75;
+
+    font-size: $fs-medium;
+  }
+
+  @include media(large) {
+    margin: 0 0 $spacing-unit * 1;
+
+    font-size: $fs-big;
+  }
+}
+
+.TripleBanner-desc {
+  display: none;
+
+  @include media(small) {
+    display: block;
+
+    font-size: $fs-little;
+    font-weight: $fw-light;
+  }
+
+  @include media(medium) {
+    font-size: $fs-regular;
+  }
+
+  @include media(large) {
+    font-size: $fs-large;
+  }
+}

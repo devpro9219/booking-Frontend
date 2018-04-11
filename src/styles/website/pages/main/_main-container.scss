@@ -1,0 +1,18 @@
+.MainContainer {
+  position: relative;
+  z-index: $neutral-z;
+}
+
+@supports (display: flex) or (display: -ms-flexbox) {
+
+  .MainContainer {
+    // display: flex;
+    // flex-direction: column;
+
+    // height: 100%;
+  }
+
+  .MainContainer-wrapper {
+    // flex-grow: 1;
+  }
+}

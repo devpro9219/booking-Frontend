@@ -1,0 +1,213 @@
+// Mixins from the landing page legacy code
+
+//Media queries
+@mixin large {
+	@media screen and (min-width: 1921px) {
+		@content
+	}
+}
+
+@mixin desktop {
+	@media screen and (min-width: 1367px) {
+		@content
+	}
+}
+
+@mixin laptop {
+	@media screen and (min-width: 1025px) {
+		@content
+	}
+}
+
+@mixin tablet {
+	@media screen and (min-width: 768px) {
+		@content
+	}
+}
+
+@mixin smart {
+	@media screen and (max-width: 480px) {
+		@content
+	}
+} 
+
+
+
+//Aligning
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: perspective(1px) translateY(-50%);
+  -ms-transform: perspective(1px) translateY(-50%);
+  transform: perspective(1px) translateY(-50%);
+}
+
+
+//Background
+
+@mixin bgc($color) {
+	background-color: $color;
+}
+
+
+@mixin bgr($file, $position: center, $repeat: no-repeat) {
+	background: url('../images/#{$file}') $position $repeat;
+}
+
+//Border 
+
+@mixin border($size, $type: solid, $color: black) {
+	border: $size $type $color;
+}
+
+%clearfix {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+
+//Transforms 
+
+@mixin translate($x, $y) {
+	-webkit-transform: translate($x, $y);
+	transform: translate($x, $y);
+}
+
+@mixin x($size) {
+	-webkit-transform: transalateX($size);
+	transform: transalateX($size);
+}
+
+@mixin y($size) {
+	-webkit-transform: transalateY($size);
+	transform: transalateY($size);
+}
+
+@mixin rotate($deg) {
+	-webkit-transform: rotate($deg);
+	transform: rotate($deg);
+}
+
+@mixin rotate($deg) {
+	-webkit-transform: rotate($deg);
+	transform: rotate($deg);
+}
+
+@mixin scale($ratio) {
+	-webkit-transform: scale($ratio);
+	transform: scale($ratio);
+}
+
+@mixin scaleX($ratio) {
+	-webkit-transform: scaleX($ratio);
+	transform: scaleX($ratio);
+}
+
+@mixin scaleY($ratio) {
+	-webkit-transform: scaleY($ratio);
+	transform: scaleY($ratio);
+}
+
+@mixin tr-origin($position) {
+	-webkit-transform-origin: $position;
+	transform-origin: $position;
+}
+
+
+//Animations
+
+
+
+@mixin keyframes($name){
+	@-webkit-keyframes $name {
+	  @content;
+	}
+	@-moz-keyframes $name {
+	  @content;
+	}
+	@-o-keyframes $name {
+	  @content;
+	}
+	@keyframes $name {
+	  @content;
+	}
+}
+
+// END Mixins from the landing page legacy code
+
+// Mixins from the website legacy code
+
+@mixin iconBefore($iconCode) {
+    &:before{
+        content: $iconCode;
+        font-family: "emil" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        speak: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+@mixin iconAfter($iconCode) {
+    &:after{
+        content: $iconCode;
+        font-family: "emil" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        speak: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+// Icon codes
+$icon-facebook: 'a';
+$icon-arrowRight: 'b';
+$icon-instagram: 'c';
+$icon-twitter: 'd';
+$icon-arrowLeft: 'b';
+$icon-close: 'e';
+
+@mixin media($breakpoint) {
+    $map: $breakpoint;
+  
+    @if (type-of($breakpoint) != map) {
+      $map: map-get($breakpoints, $breakpoint);
+    }
+  
+    @if $map != null {
+      $query: "";
+      @if map-has-key($map, min) {
+        // $query: append($query, )
+        $query: $query + "(min-width: #{map-get($map, min)})"
+      }
+      @if map-has-key($map, min) and map-has-key($map, max) {
+        // $query: append($query, "and")
+        $query: $query + " and "
+      }
+      @if map-has-key($map, max) {
+        // $query: append($query, "(max-width: #{map-get($map, max)})")
+        $query: $query + "(max-width: #{map-get($map, max)})"
+      }
+      @media screen and #{$query} {
+        @content;
+      }
+    }
+    @else {
+      @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+          + "Please make sure it is defined in `$breakpoints` map.";
+    }
+  }
+
+// END Mixins from the website legacy code

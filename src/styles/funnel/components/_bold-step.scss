@@ -1,0 +1,18 @@
+.boldstep {
+
+    &__title {
+        color: $black;
+        font-size: 25px;
+        font-weight: $fw-light;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        max-width: 540px;
+    }
+
+    &__title-bold {
+        font-weight: bold;
+    }
+
+}

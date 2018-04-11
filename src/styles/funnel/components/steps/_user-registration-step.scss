@@ -1,0 +1,175 @@
+.user-registration-step {
+    margin-top: -50px;
+
+    &__container {
+        width: 600px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    &__title{
+        color: $black;
+        font-size: 14px;
+        font-weight: $fw-medium;
+        margin-bottom: 15px;
+        @include media(medium) {
+            padding-right: 35px;
+            padding-left: 35px;
+        }
+    }
+
+    &__inputs {
+        margin-bottom: 45px;
+
+        @include media(medium) {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__input {
+        margin-bottom: 20px;
+
+        &.is-error {
+            input {
+                border-color: $color-flushMahogany;
+            }
+        }
+
+        &.date-container {
+            margin-left: -10px;
+            margin-right: -10px;
+            width: 100%!important;
+        }
+
+        &.half-width {
+            display: inline-block;
+            width: 50%;
+            padding-right: 20px;
+
+            & ~ & {
+                padding-left: 20px;
+                padding-right: 0;
+
+                @include media(medium) {
+                    padding-right: 35px;
+                    padding-left: 35px;
+                }
+            }
+        }
+        @include media(medium) {
+            display: inline-block;
+            width: 50%;
+            padding-right: 35px;
+            padding-left: 35px;
+        }
+
+        input {
+            font-size: 20px;
+            border: none;
+            background: none;
+            border-bottom: 1px solid #B3B3B3;
+            width: 100%;
+            outline: none;
+            color: $black;
+
+            &::placeholder {
+                color: rgba(76, 76, 76, 0.2);
+            }
+        }
+    }
+
+    &__date-wrapper{
+        display: inline-block;
+        width: 45px;
+        margin: 0 10px;
+        position: relative;
+
+        &:after{
+            content: '\25A0';
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: -12px;
+            transform: translateY(-50%);
+            font-size: 4px;
+            color: $black;
+        }
+
+        &.is-error {
+            input {
+                border-color: $color-flushMahogany;
+            }
+        }
+
+        &.year{
+            width: 80px;
+
+            &:after{
+                display: none;
+            }
+        }
+
+        input {
+            text-align: center;
+        }
+    }
+
+    &__radio {
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &__radio-circle {
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        border-radius: 50px;
+        border: 1px solid $blue;
+        cursor: pointer;
+        vertical-align: middle;
+        margin-right: 10px;
+        position: relative;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50px;
+            background: $blue;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            opacity: 0;
+            transition: opacity .15s linear;
+        }
+
+        &.checked {
+            &:before {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__radio-label {
+        display: inline-block;
+        vertical-align: middle;
+        color: $black;
+        font-size: 16px;
+        margin-right: 45px;
+    }
+
+    &__label {
+        font-size: 14px;
+        font-weight: $fw-light;
+        color: $black;
+    }
+
+    &__date-block {
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
+
+}

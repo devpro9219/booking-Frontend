@@ -1,0 +1,49 @@
+.funnel-footer{
+    bottom: 0;
+    left: 0;
+    height: 85px;
+    background-color: $color-alabaster;
+    width: 100%;
+    padding-top: 20px;
+
+    &.is-home {
+    position: relative;
+    .funnel-footer__badges {
+       text-align: left;
+                }
+       }
+
+    &__badges {
+        text-align: left;
+        margin-left: -15px;
+        margin-right: -15px;
+
+        li {
+            display: inline-block;
+            padding: 0 15px;
+            max-width: 25%;
+            vertical-align: middle;
+        }
+
+        img {
+            display: block;
+        }
+    }
+
+    &__gothaer {
+        margin-top: -10px;
+        width: 136px;
+    }
+
+    &__tuv {
+        width: 60px;
+    }
+
+    &__norton {
+        width: 67px;
+    }
+
+    &__tuvBadge {
+        width: 33px;
+    }
+}

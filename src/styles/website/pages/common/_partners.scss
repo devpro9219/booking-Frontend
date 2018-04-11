@@ -1,0 +1,60 @@
+.Partners{
+    background-color: $color-white;
+    margin-top: 0px;
+    padding: $spacing-unit * 2 0;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid $color-lightgrey;
+
+    > p {
+        text-align: left;
+        margin-left: 25%;
+        line-height: 0px;
+        color: $color-darkGray3;
+    }
+
+    @include media(large){
+        margin-top: 0px;
+    }
+
+    &-image{
+        width: 33%;
+        vertical-align:super;
+        padding:0px 30px;
+
+        @include media(small-max){
+            vertical-align: middle;
+        }
+        &:first-of-type{
+
+            @include media(small){
+
+            }
+        }
+
+        @include media(medium-only){
+            height: 54px;
+            width: auto;
+        }
+
+        @include media(large){
+            width: auto;
+        }
+
+    }
+}
+.gothaer {
+
+    padding: 0 30px;
+    vertical-align: bottom;
+
+    @include media(small-max) {
+        width: 70%;
+        padding: 0px 60px;
+    }
+
+    @include media(medium)
+    {height: 100px;
+        width: auto;}
+}
+

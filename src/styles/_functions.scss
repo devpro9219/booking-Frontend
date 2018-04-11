@@ -1,0 +1,34 @@
+//Pixel to viewport
+
+@function get-vw($target) { 
+	$values: ();
+	@each $value in $target {
+		@if $value == 'auto' {
+			$values: append($values,  auto);
+			
+		} 
+
+		@else {
+			$vw-context: (1920*.01) * 1px;
+  			$values: append($values,  ($value/$vw-context) * 1vw);
+		} 		
+	}
+  @return $values; 
+}
+
+
+@function get-vh($target) { 
+	$values: ();
+	@each $value in $target {
+		@if $value == 'auto' {
+			$values: append($values,  auto);
+			
+		} 
+
+		@else {
+			$vw-context: (1080*.01) * 1px;
+  			$values: append($values,  ($value/$vw-context) * 1vw);
+		} 		
+	}
+  @return $values; 
+}

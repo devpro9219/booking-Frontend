@@ -1,0 +1,92 @@
+.ScrollButton {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+
+  width: $spacing-unit * 7.5;
+  height: $spacing-unit * 7.5;
+
+  border: 1px solid rgba($color-white, 0.25);
+  border-radius: 50%;
+
+  transform: translateX(-50%) scale(1) translateZ(0);
+  transition: transform .2s ease-out;
+
+  &.ScrollButton--footer {
+    display: none;
+    left: initial;
+    right: 0;
+    transform: rotate(180deg);
+
+    &:hover {
+      transition: transform .2s cubic-bezier(.25,1.6,.6,1.4);
+      transform: rotate(180deg) translateX(0) scale(1.025) translateZ(0);
+    }
+
+    @include media(medium) {
+      display: block;
+      top: 0;
+    }
+
+    @include media(large) {
+      top: -50px;
+    }
+  }
+
+  &:hover {
+    transition: transform .2s cubic-bezier(.25,1.6,.6,1.4);
+    transform: translateX(-50%) scale(1.025) translateZ(0);
+  }
+
+  > img {
+    display: block;
+    width: 12px;
+
+    margin: 0 auto;
+
+    animation: bounce-around 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce-around {
+    0%, 100% { transform: translateY(0) }
+    2%  { transform: translateY(15%) }
+    4% { transform: translateY(-15%) }
+    6% { transform: translateY(15%) }
+    8% { transform: translateY(0) }
+  }
+
+  @include media(large) {
+
+    .HeroHeader & {
+      right: 0;
+      bottom: 0;
+      left: auto;
+
+      transform: scale(1) translateZ(0);
+
+      &:hover {
+        transition: transform .2s cubic-bezier(.25,1.6,.6,1.4);
+        transform: scale(1.075) translateZ(0);
+      }
+    }
+
+    &--center {
+      .HeroHeader & {
+        right: 0;
+        left: 0;
+        bottom: -20px;
+
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @include media(max-content) {
+
+    .HeroHeader & {
+      right: 0;
+    }
+  }
+}

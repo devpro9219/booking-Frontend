@@ -1,0 +1,17 @@
+export default [
+    {value: '147_LIMOUSINE', name: '147 (Limousine)'},
+    {value: '156_KOMBI', name: '156 (Kombi)'},
+    {value: '156_LIMOUSINE', name: '156 (Limousine)'},
+    {value: '159_KOMBI', name: '159 (Kombi)'},
+    {value: '159_LIMOUSINE', name: '159 (Limousine)'},
+    {value: '166_LIMOUSINE', name: '166 (Limousine)'},
+    {value: '4C_COUPE', name: '4C (Coupe)'},
+    {value: '4C_ROADSTER', name: '4C (Roadster)'},
+    {value: 'BRERA_COUPE', name: 'Brera (Coupe)'},
+    {value: 'GIULIA_LIMOUSINE', name: 'Giulia (Limousine)'},
+    {value: 'GIULIETTA_LIMOUSINE', name: 'Giulietta (Limousine)'},
+    {value: 'GT_COUPE', name: 'GT (Coupe)'},
+    {value: 'MITO_LIMOUSINE', name: 'Mito (Limousine)'},
+    {value: 'SPIDER_ROADSTER', name: 'Spider (Roadster)'},
+    {value: 'STELVIO', name: 'Stelvio (Geschlossen)'},
+];

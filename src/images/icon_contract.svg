@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_contract_scrolling</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="1.93720335e-16 6.08717087 1.93720335e-16 0.245979545 6.63182814 0.245979545 6.63182814 6.08717087"></polygon>
+        <polygon id="path-3" points="7.14902812 0 14.2539666 0 14.2539666 6.9485747 7.14902812 6.9485747 0.0440896259 6.9485747 0.0440896259 0 7.14902812 0"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_contract_scrolling">
+            <g id="Group" transform="translate(30.000000, 24.000000)">
+                <g id="Group-4">
+                    <path d="M81.3064972,87.7192982 L70.8615819,98.6842105" id="Line" stroke="#1A2020" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                    <path d="M86.180791,22.3603915 L86.180791,2.47008356 C86.180791,1.10289683 85.094937,0 83.7554682,0 L2.95780861,0 C1.61539691,0 0.532485876,1.10618942 0.532485876,2.47074322 L0.532485876,25.4065041 L0.532485876,82.1476965 L0.532485876,101.694268 C0.532485876,103.059653 1.61708073,104.166667 2.95499629,104.166667 L67.8974833,104.166667 C69.2378043,104.166667 71.0698629,103.365885 71.9948733,102.378071 L84.5059114,89.0175932 C85.4264619,88.0345416 86.180791,86.1231032 86.180791,84.7589137 L86.180791,61.2902709" id="Combined-Shape" stroke="#4C4C4C" fill="#FFFFFF" stroke-linecap="round"></path>
+                    <path d="M68.1603048,103.34766 L85.1386886,85.3012168 L68.1603048,85.3012168 L68.1603048,103.34766 Z" id="Rectangle-27" stroke="#4C4C4C"></path>
+                    <path d="M11.7453851,32.4378655 L66.5892857,32.4378655" id="Line-Copy-12" stroke="#1A2020" stroke-linecap="round"></path>
+                    <path d="M22.4588441,17.7442935 L63.8983051,17.7442935" id="Line-Copy-12" stroke="#FAD214" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M11.6738801,48.1999269 L64.7692391,48.1999269" id="Line-Copy-16" stroke="#1A2020" stroke-linecap="round"></path>
+                    <path d="M11.6310163,39.9762427 L63.5577373,39.9762427" id="Line-Copy-15" stroke="#1A2020" stroke-linecap="round"></path>
+                    <path d="M11.7310776,55.7383041 L70.2327876,55.7383041" id="Line-Copy-17" stroke="#1A2020" stroke-linecap="round"></path>
+                    <path d="M12.0569735,63.2766813 L74.3432203,63.2766813" id="Line-Copy-19" stroke="#1A2020" stroke-linecap="round"></path>
+                    <path d="M12.3700671,70.3579643 L74.3432203,70.3579643" id="Line-Copy-18" stroke="#1A2020" stroke-linecap="round"></path>
+                    <path d="M12.4425814,77.8963415 L74.3432203,77.8963415" id="Line-Copy-18" stroke="#1A2020" stroke-linecap="round"></path>
+                    <path d="M12.7182203,88.6325952 L30.149552,88.6325952" id="Line-Copy-18" stroke="#1A2020" stroke-linecap="round"></path>
+                </g>
+                <g id="Group-37" transform="translate(70.000000, 25.000000)">
+                    <g id="Group-8">
+                        <g id="Group-38">
+                            <ellipse id="Oval" stroke="#1A2020" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1,3,1,3" cx="15.4329004" cy="15.9580052" rx="15.4329004" ry="15.9580052"></ellipse>
+                            <g id="Group-8" transform="translate(5.081967, 4.569971)">
+                                <g id="Page-1" transform="translate(11.045017, 11.829293) rotate(-45.000000) translate(-11.045017, -11.829293) translate(-0.454983, 7.829293)">
+                                    <g id="Group-3" transform="translate(0.000000, 0.365714)">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <g id="Clip-2"></g>
+                                        <path d="M5.51070709,2.84730648 C5.51070709,1.86390031 5.83521522,0.958757023 6.37378964,0.245979545 L-0.000136347954,3.10842661 L6.63182814,6.08717087 C5.94020314,5.33709052 5.51070709,4.30760432 5.51070709,3.17535235 L5.51070709,2.84730648 Z" id="Fill-1" fill="#06C3C3" mask="url(#mask-2)"></path>
+                                    </g>
+                                    <g id="Group-6" transform="translate(7.158268, 0.000000)">
+                                        <mask id="mask-4" fill="white">
+                                            <use xlink:href="#path-3"></use>
+                                        </mask>
+                                        <g id="Clip-5"></g>
+                                        <path d="M11.7353965,6.9485747 L2.56273933,6.9485747 C1.17748199,6.9485747 0.0440896259,5.3851454 0.0440896259,3.47428735 C0.0440896259,1.56342931 1.17748199,0 2.56273933,0 L11.7353965,0 C13.1206538,0 14.2540462,1.56342931 14.2540462,3.47428735 C14.2540462,5.3851454 13.1206538,6.9485747 11.7353965,6.9485747" id="Fill-4" fill="#06C3C3" mask="url(#mask-4)"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

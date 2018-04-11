@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="215" height="115" viewBox="0 0 215 115">
+  <g fill="none">
+    <g transform="translate(-80 -4365)translate(38 4365)translate(42 0)">
+      <text font-family="NunitoSans-Black, Nunito Sans" font-size="20" line-spacing="20" style="fill:#FF9B00;font-weight:700">
+        <tspan x="130" y="72">
+          Castle 5
+      </tspan>
+      <tspan x="130.88" y="92.1800537" font-family="NunitoSans-Light, Nunito Sans" font-weight="300">
+          Insurance
+      </tspan>
+  </text>
+  <rect y="30" width="20" height="85" fill="#FFD800"/>
+  <rect x="80" y="30" width="20" height="85" fill="#2EC6DF"/>
+  <rect x="20" y="47" width="20" height="68" fill="#FF9B00"/>
+  <rect x="60" y="47" width="20" height="68" fill="#8F54BE"/>
+  <rect x="40" y="29" width="20" height="68" fill="#EB4B8D"/>
+  <polygon points="48 0 68.5 10 48 20" fill="#EB4B8D"/>
+</g>
+</g>
+</svg>

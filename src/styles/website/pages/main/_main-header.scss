@@ -1,0 +1,313 @@
+.MainHeader {
+  position: fixed;
+  z-index: $high-z;
+  top: 0;
+  left: 0; right: 0;
+  width: 100%;
+  height: $MainHeader-height;
+  
+  &.is-purple{
+    &:after{
+      opacity: 0;
+    }
+
+    @include media (medium) {
+      .Button {
+        background-color: $color-Turquoise;
+        border-color: $color-Turquoise;
+        color: white !important;
+      }
+      .Button--transparent:hover{
+        background-color: $color-hoverTurquoise;
+      }
+      .Menu-item {
+        color: $color-darkGray3;
+      }
+      .Menu-item:hover {
+        color: $color-Turquoise;
+      }
+    }
+  }
+
+  &.is-purple.is-scrolled {
+    @include media (medium) {
+      .Button {
+        border-color: $color-Turquoise;
+      }
+      .Menu-item {
+        color: $color-darkGray3;
+      }
+    }
+  }
+
+  &.is-scrolled {
+    .Menu-item {
+      color: $color-darkGray3; font-weight: $fw-regular;
+    }
+    .Menu-item.is-active {color:$color-Turquoise; font-weight: $fw-medium;}
+    .Button--transparent {
+      background-color: $color-Turquoise;
+      color:$color-white !important;
+    }
+    .Button--transparent:hover{
+      background-color: $color-hoverTurquoise;
+    }
+    .Menu-item:hover {
+      color: $color-Turquoise;
+    }
+    &:before {
+      opacity: 1;
+      transform: translateY($spacing-unit * -0.5);
+    }
+    
+    &:after {
+      opacity: 0;
+    }
+    
+    .MainHeader-logo {
+      transform: translateY(calc(-50% + #{$spacing-unit * -0.5}));
+    }
+    
+    .MainHeader-menuButton {
+      transform: translateY(calc(-50% + #{$spacing-unit * -0.5}));
+    }
+  }
+  
+  &:before {
+    content: '';
+    position: absolute;
+    top: $spacing-unit * -0.5; right: 0; bottom: $spacing-unit * 0.5; left: 0;
+    z-index: $neutral-z;
+    box-shadow: 0px 0px 4px 0px grey;
+    background-color: rgba($color-white, 1);
+    color:$color-darkGray3;
+    pointer-events: none;
+    
+    opacity: 0;
+    transition: all 0.2s ease;
+  }
+  
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0; right: 0;
+    z-index: $neutral-z;
+    height: 350%;
+    background: linear-gradient(to bottom, rgba($color-realBlack, 0.5) 0%, rgba($color-realBlack, 0) 100%);
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+  }
+  
+  @include media(medium) {
+    height: $MainHeader-height-medium;
+    
+    &.is-scrolled {
+      
+      &:before {
+        transform: translateY($spacing-unit * -1);
+      }
+      
+      .MainHeader-logo {
+        transform: translateY(calc(-50% + #{$spacing-unit * -1.25}));
+      }
+      
+      .MainHeader-menuButton {
+        transform: translateY(calc(-50% + #{$spacing-unit * -1.25}));
+      }
+      
+      .Menu {
+        transform: translateY(calc(-50% + #{$spacing-unit * -1.25}));
+      }
+    }
+    
+    &:before {
+      top: $spacing-unit * -1.5; right: 0; bottom: $spacing-unit * 1.5; left: 0;
+    }
+    
+    &:after {
+      height: 300%;
+      
+      background: linear-gradient(to bottom, rgba($color-realBlack, 0.35) 0%, rgba($color-realBlack, 0) 100%);
+    }
+  }
+  
+  @include media(large) {
+    height: $MainHeader-height-large;
+  }
+  
+  @include media(wide) {
+    height: $MainHeader-height-wide;
+  }
+}
+
+.MainHeader-container {
+  position: relative;
+  height: 100%;
+  
+  @extend %u-container;
+}
+
+.MainHeader-logo {
+  position: absolute;
+  top: 50%;
+  z-index: $high-z;
+  transform: translateY(-50%);
+  
+  font-size: 0;
+  
+  body:not(.not-animatable) & {
+    transition: transform 0.2s ease;
+  }
+  
+  > img {
+    display: block;
+    width: 48px;
+
+  }
+
+  @include media(small-max) {
+    left: 15px;
+
+    > img {
+      width: 58px;
+    }
+  }
+  
+  @include media(medium) {
+    left: 15px;
+    
+    > img {
+     width: 58px;
+   }
+}
+  
+  @include media(large) {
+    left: 0px;
+    
+    > img {
+      width: 64px;
+    }
+  }
+  
+  @include media(wide) {
+    left: 0px;
+    
+    > img {
+      width: 80px;
+    }
+  }
+  
+  @include media(max-content) {
+    left: $spacing-unit * -1.5;
+  }
+}
+
+.MainHeader-menuButton {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: $high-z;
+  
+  transform: translateY(-50%);
+  
+  body:not(.not-animatable) & {
+    transition: transform 0.2s ease;
+  }
+}
+
+$MainHeader-menuButtonIconHeight: 3px;
+$Mainheader-menuButtonIcon-transition: 0.35s ease;
+.MainHeader-menuButtonIcon {
+  position: relative;
+  display: block;
+  
+  width: $spacing-unit * 3;
+  height: $spacing-unit * 2.25 + 1;
+  
+  margin: $spacing-unit * 2.5 $spacing-unit * 2;
+  margin-right: $container-padding;
+  
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateY(7px);
+    right: 0;
+    
+    display: block;
+    
+    width: 70%;
+    height: $MainHeader-menuButtonIconHeight;
+    border-radius: $spacing-unit * 0.5;
+    
+    background-color: $color-brightTurquoise;
+    
+    opacity: 1;
+    transition: opacity 0.125s ease,
+    transform $Mainheader-menuButtonIcon-transition;
+  }
+  
+  > i {
+    position: absolute;
+    top: 50%;
+    left: 0; right: 0;
+    width: 100%;
+    
+    transform: translateY(-50%);
+    
+    transition: transform $Mainheader-menuButtonIcon-transition;
+    
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      
+      display: block;
+      
+      width: 100%;
+      height: $MainHeader-menuButtonIconHeight;
+      border-radius: $spacing-unit * 0.5;
+      
+      background-color: $color-brightTurquoise;
+      
+      transition: transform $Mainheader-menuButtonIcon-transition;
+      transform-origin: center;
+    }
+    
+    &:before {
+      top: 50%;
+      transform: translateY(-50%) translateY(-7px);
+    }
+    
+    &:after {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  
+  body.menu-open & {
+    
+    > i {
+      transform: translateY(-50%) rotate(135deg);
+      
+      &:before {
+        transform: translateY(-50%) translateY(0px) translateX(0px) rotate(90deg);
+      }
+      
+      &:after {
+        transform: translateY(-50%);
+      }
+    }
+    
+    &:after {
+      opacity: 0;
+      
+      transform: translateY(-50%) translateY(800%);
+    }
+  }
+  
+  @include media(medium) {
+    display: none;
+  }
+}

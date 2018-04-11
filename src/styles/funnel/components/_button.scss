@@ -1,0 +1,23 @@
+.button {
+    display: inline-block;
+
+    &.center {
+        display: block;
+        text-align: center;
+    }
+
+    &__element {
+        background-color: $blue;
+        color: #fff;
+        font-size: 20px;
+        padding: 13px 30px;
+        border-radius: 100px;
+        display: inline-block;
+        cursor: pointer;
+        transition: background-color 0.5s linear;
+
+        &:hover, &:active{
+            background-color: $darkBlue;
+        }
+    }
+}

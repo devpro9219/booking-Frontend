@@ -1,0 +1,126 @@
+.progress {
+    display: block;
+    margin-top: -1px;
+
+    .is-hidden{
+        display: none;
+    }
+
+    &__bar {
+        position: relative;
+        width: 0%;
+        height: 3px;
+        transition: width .4s linear;
+    }
+
+    &__steps{
+        li{
+            position: relative;
+            display: inline-block;
+            width: 20%;
+            color: #A2A2A2;
+            font-size: 14px;
+            font-weight: $fw-light;
+            &:first-child {
+                margin-left: 0px;
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                top: -7px;
+                left: 0;
+                width: 1px;
+                height: 7px;
+                background-color: #B3B3B3;
+            }
+        }
+    }
+}
+
+.number-parent-touched {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid #FAD214;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+    margin-left: 14%;
+    margin-top: 0.7%;
+}
+.number-parent {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 14%;
+    margin-top: 0.9%;
+}
+.number-border{
+    width: 28px;
+    border-radius: 50%;
+    height: 28px;
+    opacity: 0.8;
+    border: 1px solid #B3B3B3;
+    background-color: white;
+}
+.number-border-touched{
+    display:block;
+    width:27px;
+    height:27px;
+    border-radius:50px;
+    background:#FAD214;
+    position:absolute;
+    top:2px;
+    left:2px;
+}
+.actual-number{
+    width: 10px;
+    font-size: 17px;
+    font-weight: 900;
+    padding-left: 8px;
+    color: #B3B3B3;
+}
+.actual-number-touched{
+    width: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 8px;
+    color: white;
+}
+.progress__steps{
+    margin-top: -2.2%;
+}
+.progress-bar-text-1 {
+    margin-left: -40px;
+    font-size: 14px;
+    font-weight: $fw-light;
+    margin-top: 10px;
+}
+.progress-bar-text-2 {
+    margin-left: -55px;
+    font-size: 14px;
+    font-weight: $fw-light;
+    margin-top: 10px;
+}
+.progress-bar-text-3 {
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: $fw-light;
+    margin-top: 10px;
+}
+.progress-bar-text-4 {
+    margin-left: -15px;
+    font-size: 14px;
+    font-weight: $fw-light;
+    margin-top: 10px;
+}
+.progress-bar-text-5 {
+    margin-left: -45px;
+    font-size: 14px;
+    font-weight: $fw-light;
+    margin-top: 10px;
+}

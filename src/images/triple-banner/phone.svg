@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="145px" viewBox="0 0 132 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M28,9.99661648 C28,4.47563765 32.4704103,0 37.9942643,0 L94.0057357,0 C99.5254155,0 104,4.48224984 104,9.99661648 L104,123.003384 C104,128.524362 99.5295897,133 94.0057357,133 L37.9942643,133 C32.4745845,133 28,128.51775 28,123.003384 L28,9.99661648 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-6" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.894372993   0 0 0 0 0.875414299   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="66" cy="124" r="3"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.894372993   0 0 0 0 0.875414299   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Claim" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1084.000000, -4417.000000)" id="Group-35">
+            <g transform="translate(1056.000000, 4418.000000)">
+                <g id="Group-8" transform="translate(28.000000, 0.000000)">
+                    <ellipse id="Oval-14-Copy-3" fill="#765DFF" opacity="0.1" cx="66" cy="134" rx="66" ry="10"></ellipse>
+                    <ellipse id="Oval-14-Copy-3" fill="#765DFF" opacity="0.35" cx="66" cy="132" rx="47" ry="7"></ellipse>
+                    <g id="Rectangle-2-Copy">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M59,7.00002071 L71,7" id="Path-85" stroke="#765DFF" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M47,7.00002071 L48,7.00001899" id="Path-85-Copy" stroke="#765DFF" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M34,17.0061099 C34,14.7935965 35.7953765,13 38.0034866,13 L93.9965134,13 C96.207578,13 98,14.7877579 98,17.0061099 L98,111.99389 C98,114.206404 96.2046235,116 93.9965134,116 L38.0034866,116 C35.792422,116 34,114.212242 34,111.99389 L34,17.0061099 Z" id="Rectangle-2-Copy-2" stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <circle id="Oval-16-Copy-5" fill="#FAD214" cx="51" cy="55" r="5"></circle>
+                    <circle id="Oval-16-Copy-8" fill="#FAD214" cx="51" cy="70" r="5"></circle>
+                    <circle id="Oval-16-Copy-11" fill="#FAD214" cx="51" cy="85" r="5"></circle>
+                    <circle id="Oval-16-Copy-6" fill="#FAD214" cx="66" cy="55" r="5"></circle>
+                    <circle id="Oval-16-Copy-9" fill="#FAD214" cx="66" cy="70" r="5"></circle>
+                    <circle id="Oval-16-Copy-10" fill="#FAD214" cx="81" cy="70" r="5"></circle>
+                    <circle id="Oval-16-Copy-12" fill="#FAD214" cx="66" cy="85" r="5"></circle>
+                    <ellipse id="Oval-16-Copy-16" fill="#0FE1C3" cx="66" cy="100" rx="5" ry="5"></ellipse>
+                    <circle id="Oval-16-Copy-7" fill="#FAD214" cx="81" cy="55" r="5"></circle>
+                    <circle id="Oval-16-Copy-13" fill="#FAD214" cx="81" cy="85" r="5"></circle>
+                    <g id="Oval-16">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use stroke="#765DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

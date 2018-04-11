@@ -1,0 +1,232 @@
+.DrivingBanner {
+  overflow: hidden;
+  max-width: 100vw;
+}
+
+.DrivingBanner-container {
+  position: relative;
+
+  height: 340px;
+  margin-bottom: $spacing-unit * 7.5;
+
+  @extend %u-container;
+
+  @include media(small) {
+    height: 550px;
+    margin-bottom: $spacing-unit * 10;
+  }
+
+  @include media(medium) {
+    margin-bottom: $spacing-unit * 15;
+  }
+
+  @include media(large) {
+
+    @media (max-height: 700px) {
+      height: 475px;
+    }
+  }
+}
+
+$driving-duration: 10s;
+.DrivingBanner-wrapper {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+
+  width: 100%;
+
+  @extend %u-container;
+
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 2236px;
+    height: 300px;
+
+    background: url('../images/driving-banner/mobile-bg-alt.svg') center / 100% no-repeat;
+
+    animation: driving-banner-bg $driving-duration infinite linear;
+  }
+
+  &:after {
+    margin-left: -5px;
+    transform: translateX(100%);
+
+    animation: driving-banner-bg-alt $driving-duration infinite linear;
+  }
+
+  @include media(small) {
+
+    &:before, &:after {
+      width: 3601px;
+      height: 483px;
+    }
+
+    &:after {
+      margin-left: -9px;
+    }
+  }
+
+  @include media(large) {
+
+    @media (max-height: 700px) {
+
+      &:before, &:after {
+        width: 2236px;
+        height: 300px;
+      }
+    }
+  }
+
+  @include media(wide) {
+    overflow: visible;
+
+    &:before, &:after {
+      width: 4473px;
+      height: 600px;
+    }
+
+    &:after {
+      margin-left: -3px;
+    }
+  }
+}
+
+@keyframes driving-banner-bg {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-100%)); }
+}
+
+@keyframes driving-banner-bg-alt {
+  0% { transform: translateX(100%);}
+  100% { transform: translateX(0); }
+}
+
+.DrivingBanner-car {
+  position: absolute;
+  bottom: -30px;
+  left: $container-padding;
+  z-index: $positive-z;
+
+  width: 253px;
+  height: 65px;
+
+  background: url('../images/driving-banner/mobile-car.svg') center / 100% no-repeat;
+
+  animation: scrambling 0.5s infinite linear;
+
+  @include media(medium) {
+    width: 350px;
+    height: 90px;
+
+    left: $container-padding-medium;
+  }
+
+  @include media(large) {
+    width: 400px;
+    height: 102px;
+
+    left: $container-padding-large;
+
+    @media (max-height: 700px) {
+      width: 350px;
+      height: 90px;
+    }
+  }
+
+  @include media(wide) {
+    width: 505px;
+    height: 129px;
+
+    left: $container-padding-large;
+  }
+}
+
+.DrivingBanner-slide {
+  position: absolute;
+  left: 0; right: 0;
+  top: 0;
+  z-index: $negative-z;
+
+  width: 280px;
+  margin: 0 auto;
+
+  text-align: center;
+
+  > strong {
+    display: block;
+    position: relative;
+    padding-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit;
+
+    font-weight: $fw-medium;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0; right: 0;
+
+      width: $spacing-unit * 1.5;
+      height: 1px;
+      margin: 0 auto;
+
+      background-color: $color-brand-beta;
+    }
+  }
+
+  p {
+    margin-top: 0;
+    font-weight: $fw-light;
+  }
+
+  opacity: 0;
+  transform: translateY(50%);
+
+  transition: all 0.75s ease-in-out;
+
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @include media(medium) {
+
+    > strong {
+      margin-bottom: $spacing-unit * 2;
+      margin-bottom: $spacing-unit * 2;
+
+      font-size: $fs-biggish;
+
+      &:before { width: $spacing-unit * 3; }
+    }
+
+    p {
+      font-size: $fs-large;
+    }
+  }
+
+  @include media(large) {
+    width: 360px;
+    text-align: left;
+    left: $container-padding-large + $spacing-unit * 7;
+    right: auto;
+    margin: 0;
+
+    > strong {
+      margin-bottom: $spacing-unit * 3;
+      padding-bottom: $spacing-unit * 3;
+
+      font-size: $fs-huge;
+
+      &:before {
+        margin: 0;
+      }
+    }
+
+    p {
+      font-size: $fs-big;
+    }
+  }
+}

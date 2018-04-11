@@ -1,0 +1,61 @@
+.footer	{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	position: relative;
+	background: linear-gradient(180deg,#413296 0,#5944ce 75%);
+	color: $white;
+
+	.nav-link {
+		color: $white;
+		text-decoration: none;
+		transition: color 0.3s ease-in-out;
+		font-size: 16px;
+
+		&:hover {
+			color: $blue;
+
+		}
+	}
+}
+
+.footer-text {
+	font-size: 14px;
+	max-width: 400px;
+	margin-bottom: 50px;
+	@extend %font-light;
+}
+
+.footer-nav {
+	@extend %clearfix;
+}
+
+.pages-links {
+	margin-bottom: 20px;
+	@include laptop {
+		float: right;
+		display: inline-block;
+		margin-bottom: 0;
+
+	}
+
+	.nav-link {
+		margin-right: 20px;
+		white-space: nowrap;
+
+		@include laptop {
+			margin-right: 60px;
+	
+		}
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+}
+
+.legal-links {
+	@include laptop {
+		float: left;
+		display: inline-block;
+	}
+}
